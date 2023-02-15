@@ -1,7 +1,7 @@
 import logging
 from fpdf import FPDF
 import boto3
-
+import pymongo
 
 def save_to_s3(filename):
     """
@@ -71,5 +71,24 @@ def save_to_pdf(user_sel_course):
     except Exception as e:
         logging.error(e)
 
+
+def save_to_mongodb(cat_subcat_data, courses_data):
+
+    try:
+        logging.info("Connecting to Mongo Database...")
+        client = pymongo.MongoClient("mongodb+srv://ineuron:pwdineuron@cluster0.eltt8.mongodb.net/?retryWrites=true&w=majority")
+        database = client['ineuron']
+        logging.info("..Done")
+
+        logging.info("Saving to Mongo Database...")
+        cat_subcat_coll = database['cat_subcat']
+        courses_coll = database['courses']
+
+        cat_subcat_coll.insert_many(cat_subcat_data)
+        courses_coll.insert_many(courses_data)
+
+        logging.info("...Done")
+    except Exception as e:
+        logging.error(e)
 
 

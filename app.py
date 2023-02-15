@@ -21,8 +21,11 @@ cat_subcat_data, courses_data = data_neuron.get_data()
 @app.route('/')
 @app.route('/home_page', methods=['GET', 'POST'])
 async def home_page():
+
     if request.method == 'POST':
         try:
+            utilities.save_to_mongodb(cat_subcat_data, courses_data)
+
             return render_template('cat_subcat_list.html', cat_subcat_data=cat_subcat_data)
         except Exception as e:
             logging.error(e)
