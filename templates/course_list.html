@@ -1,0 +1,58 @@
+{% extends 'base.html' %}
+
+{% block title %}
+  Course List
+{% endblock %}
+
+
+{% block content %}
+<style>
+tr:nth-child(even) {
+  background-color: #D6EEEE;
+}
+
+thead{background-color: gray;}
+
+</style>
+
+<div class="text-center">
+    <form class="dark" action={{url_for("home_page")}} method="POST">
+        <button type="submit"  style="background-color:orange"><strong>Go Back</strong></button>
+    </form>
+</div>
+
+<table class="table table-hover table-light">
+
+      <thead style="color:white">
+        <tr >
+            <th scope="col">#</th>
+            <th scope="col">Course Name</th>
+            <th scope="col">Course Description</th>\
+            <th scope="col">Option</th>
+
+        </tr>
+      </thead>
+
+
+      <tbody>
+      <form class="dark" method="POST" action={{url_for("course_list")}} >
+
+          {% for course in courses %}
+
+          <tr >
+              <td>{{loop.index}}</td>
+              <td>{{course['course_name']}}</td>
+              <td>{{course['course_description']}}</td>
+              <td>
+                  <button type="submit"  style="background-color:lightblue" name="view_detail" value="{{course['course_id'],user_sel_cat_subcat}}">
+                      <strong>View Details</strong>
+                  </button>
+              </td>
+          </tr>
+
+          {% endfor %}
+      </form>
+      </tbody>
+</table>
+
+{% endblock %}

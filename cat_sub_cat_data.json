@@ -1,0 +1,1094 @@
+[
+    {
+        "cat_id": "62cd958353f5fe61566b9ae4",
+        "cat_name": "DATA SCIENCE",
+        "sub_cat_id": "62cd959d53f5fe14766b9ae5",
+        "sub_cat_name": "FULL STACK DATA SCIENCE"
+    },
+    {
+        "cat_id": "62cd958353f5fe61566b9ae4",
+        "cat_name": "DATA SCIENCE",
+        "sub_cat_id": "62cd95a953f5fe3dc56b9ae6",
+        "sub_cat_name": "PYTHON"
+    },
+    {
+        "cat_id": "62cd958353f5fe61566b9ae4",
+        "cat_name": "DATA SCIENCE",
+        "sub_cat_id": "62cd95b453f5fe0a5c6b9ae7",
+        "sub_cat_name": "PYTHON PROJECT"
+    },
+    {
+        "cat_id": "62cd958353f5fe61566b9ae4",
+        "cat_name": "DATA SCIENCE",
+        "sub_cat_id": "62cd95be53f5fe3b956b9ae8",
+        "sub_cat_name": "PYTHON INTERVIEW"
+    },
+    {
+        "cat_id": "62cd958353f5fe61566b9ae4",
+        "cat_name": "DATA SCIENCE",
+        "sub_cat_id": "62cd95c753f5fe3cc16b9ae9",
+        "sub_cat_name": "STATS"
+    },
+    {
+        "cat_id": "62cd958353f5fe61566b9ae4",
+        "cat_name": "DATA SCIENCE",
+        "sub_cat_id": "62cd960353f5feb7d96b9aea",
+        "sub_cat_name": "STATS INTERVIEW"
+    },
+    {
+        "cat_id": "62cd958353f5fe61566b9ae4",
+        "cat_name": "DATA SCIENCE",
+        "sub_cat_id": "62cd960b53f5fec5156b9aeb",
+        "sub_cat_name": "MACHINE LEARNING"
+    },
+    {
+        "cat_id": "62cd958353f5fe61566b9ae4",
+        "cat_name": "DATA SCIENCE",
+        "sub_cat_id": "62cd961453f5fe4b636b9aec",
+        "sub_cat_name": "MACHINE LEARNING PROJECT"
+    },
+    {
+        "cat_id": "62cd958353f5fe61566b9ae4",
+        "cat_name": "DATA SCIENCE",
+        "sub_cat_id": "62cd961c53f5fe2c6d6b9aed",
+        "sub_cat_name": "MACHINE LEARNING INTERVIEW"
+    },
+    {
+        "cat_id": "62cd958353f5fe61566b9ae4",
+        "cat_name": "DATA SCIENCE",
+        "sub_cat_id": "62cd962953f5fefb916b9aee",
+        "sub_cat_name": "DEEP LEARNING"
+    },
+    {
+        "cat_id": "62cd958353f5fe61566b9ae4",
+        "cat_name": "DATA SCIENCE",
+        "sub_cat_id": "62cd963253f5fe452a6b9aef",
+        "sub_cat_name": "DEEP LEARNING PROJECT"
+    },
+    {
+        "cat_id": "62cd958353f5fe61566b9ae4",
+        "cat_name": "DATA SCIENCE",
+        "sub_cat_id": "62cd963b53f5fef2fa6b9af0",
+        "sub_cat_name": "DEEP LEARNING INTERVIEW"
+    },
+    {
+        "cat_id": "62cd958353f5fe61566b9ae4",
+        "cat_name": "DATA SCIENCE",
+        "sub_cat_id": "62cd964453f5fed4586b9af1",
+        "sub_cat_name": "NLP"
+    },
+    {
+        "cat_id": "62cd958353f5fe61566b9ae4",
+        "cat_name": "DATA SCIENCE",
+        "sub_cat_id": "62cd964d53f5feaa846b9af2",
+        "sub_cat_name": "NLP PROJECT"
+    },
+    {
+        "cat_id": "62cd958353f5fe61566b9ae4",
+        "cat_name": "DATA SCIENCE",
+        "sub_cat_id": "62cd965553f5fe5c0e6b9af3",
+        "sub_cat_name": "NLP INTERVIEW"
+    },
+    {
+        "cat_id": "62cd958353f5fe61566b9ae4",
+        "cat_name": "DATA SCIENCE",
+        "sub_cat_id": "62cd966453f5fe5b3e6b9af4",
+        "sub_cat_name": "COMPUTER VISION"
+    },
+    {
+        "cat_id": "62cd958353f5fe61566b9ae4",
+        "cat_name": "DATA SCIENCE",
+        "sub_cat_id": "62cd966b53f5feb5986b9af5",
+        "sub_cat_name": "COMPUTER VISION PROJECT"
+    },
+    {
+        "cat_id": "62cd958353f5fe61566b9ae4",
+        "cat_name": "DATA SCIENCE",
+        "sub_cat_id": "62cd967453f5fe1f1d6b9af6",
+        "sub_cat_name": "COMPUTER VISION INTERVIEW"
+    },
+    {
+        "cat_id": "62cd958353f5fe61566b9ae4",
+        "cat_name": "DATA SCIENCE",
+        "sub_cat_id": "62cd967d53f5fe6a446b9af7",
+        "sub_cat_name": "REINFORCEMENT LEARNING"
+    },
+    {
+        "cat_id": "62cd958353f5fe61566b9ae4",
+        "cat_name": "DATA SCIENCE",
+        "sub_cat_id": "62cd968753f5fe395a6b9af8",
+        "sub_cat_name": "CHATBOT"
+    },
+    {
+        "cat_id": "62cd958353f5fe61566b9ae4",
+        "cat_name": "DATA SCIENCE",
+        "sub_cat_id": "62cd968f53f5fe12cf6b9af9",
+        "sub_cat_name": "MLOPS"
+    },
+    {
+        "cat_id": "62cd958353f5fe61566b9ae4",
+        "cat_name": "DATA SCIENCE",
+        "sub_cat_id": "62cd969753f5fe6d666b9afa",
+        "sub_cat_name": "MLOPS PROJECT"
+    },
+    {
+        "cat_id": "62cd958353f5fe61566b9ae4",
+        "cat_name": "DATA SCIENCE",
+        "sub_cat_id": "62cd96a053f5fe55126b9afb",
+        "sub_cat_name": "MLOPS INTERVIEW PREPARATION"
+    },
+    {
+        "cat_id": "62cd96ce53f5fe49c46b9afc",
+        "cat_name": "BIG DATA",
+        "sub_cat_id": "62cd971353f5fe38df6b9afd",
+        "sub_cat_name": "BIG DATA MASTERS"
+    },
+    {
+        "cat_id": "62cd96ce53f5fe49c46b9afc",
+        "cat_name": "BIG DATA",
+        "sub_cat_id": "62cd972153f5fe08c46b9afe",
+        "sub_cat_name": "TECH STACK"
+    },
+    {
+        "cat_id": "62cd96ce53f5fe49c46b9afc",
+        "cat_name": "BIG DATA",
+        "sub_cat_id": "62cd972b53f5fe3f986b9aff",
+        "sub_cat_name": "BIG DATA ON CLOUD"
+    },
+    {
+        "cat_id": "62cd96ce53f5fe49c46b9afc",
+        "cat_name": "BIG DATA",
+        "sub_cat_id": "62cd973453f5fe061c6b9b00",
+        "sub_cat_name": "BIG DATA PROJECTS"
+    },
+    {
+        "cat_id": "62cd96ce53f5fe49c46b9afc",
+        "cat_name": "BIG DATA",
+        "sub_cat_id": "62cd973e53f5fecaf56b9b01",
+        "sub_cat_name": "BIG DATA INTERVIEW"
+    },
+    {
+        "cat_id": "62cd975753f5feb4ae6b9b02",
+        "cat_name": "DATA ANALYTICS",
+        "sub_cat_id": "62cd977553f5fe52166b9b03",
+        "sub_cat_name": "BUSINESS ANALYTICS MASTERS"
+    },
+    {
+        "cat_id": "62cd975753f5feb4ae6b9b02",
+        "cat_name": "DATA ANALYTICS",
+        "sub_cat_id": "62cd977d53f5fe167f6b9b04",
+        "sub_cat_name": "POWER BI"
+    },
+    {
+        "cat_id": "62cd975753f5feb4ae6b9b02",
+        "cat_name": "DATA ANALYTICS",
+        "sub_cat_id": "62cd978653f5fe0ce86b9b05",
+        "sub_cat_name": "POWER BI INTERVIEW QUESTIONS"
+    },
+    {
+        "cat_id": "62cd975753f5feb4ae6b9b02",
+        "cat_name": "DATA ANALYTICS",
+        "sub_cat_id": "62cd978d53f5fe65846b9b06",
+        "sub_cat_name": "POWER BI PROJECTS"
+    },
+    {
+        "cat_id": "62cd975753f5feb4ae6b9b02",
+        "cat_name": "DATA ANALYTICS",
+        "sub_cat_id": "62cd984253f5fea11e6b9b08",
+        "sub_cat_name": "TABLEAU"
+    },
+    {
+        "cat_id": "62cd975753f5feb4ae6b9b02",
+        "cat_name": "DATA ANALYTICS",
+        "sub_cat_id": "62cd984b53f5fe54ed6b9b09",
+        "sub_cat_name": "TABLEAU INTERVIEW QUESTIONS"
+    },
+    {
+        "cat_id": "62cd975753f5feb4ae6b9b02",
+        "cat_name": "DATA ANALYTICS",
+        "sub_cat_id": "62cd985753f5fe30276b9b0a",
+        "sub_cat_name": "TABLEAU PROJECTS"
+    },
+    {
+        "cat_id": "62cd975753f5feb4ae6b9b02",
+        "cat_name": "DATA ANALYTICS",
+        "sub_cat_id": "62cd986353f5fe3f0e6b9b0b",
+        "sub_cat_name": "SQL"
+    },
+    {
+        "cat_id": "62cd975753f5feb4ae6b9b02",
+        "cat_name": "DATA ANALYTICS",
+        "sub_cat_id": "62cd986c53f5fe6dc36b9b0c",
+        "sub_cat_name": "SQL INTERVIEW QUESTIONS"
+    },
+    {
+        "cat_id": "62cd975753f5feb4ae6b9b02",
+        "cat_name": "DATA ANALYTICS",
+        "sub_cat_id": "62cd987653f5fe765b6b9b0d",
+        "sub_cat_name": "EXCEL"
+    },
+    {
+        "cat_id": "62cd975753f5feb4ae6b9b02",
+        "cat_name": "DATA ANALYTICS",
+        "sub_cat_id": "62cd987f53f5fe9e486b9b0e",
+        "sub_cat_name": "EXCEL INTERVIEW PREPARATION"
+    },
+    {
+        "cat_id": "62cd975753f5feb4ae6b9b02",
+        "cat_name": "DATA ANALYTICS",
+        "sub_cat_id": "62cd988853f5fe042e6b9b0f",
+        "sub_cat_name": "DASHBOARDING"
+    },
+    {
+        "cat_id": "62cd989f53f5fe2d946b9b10",
+        "cat_name": "WEB DEVELOPEMENT",
+        "sub_cat_id": "62cd98c753f5fe24956b9b11",
+        "sub_cat_name": "FULL STACK WEB DEVELOPMENT"
+    },
+    {
+        "cat_id": "62cd989f53f5fe2d946b9b10",
+        "cat_name": "WEB DEVELOPEMENT",
+        "sub_cat_id": "62cd98d053f5fe1def6b9b12",
+        "sub_cat_name": "JAVASCRIPT"
+    },
+    {
+        "cat_id": "62cd989f53f5fe2d946b9b10",
+        "cat_name": "WEB DEVELOPEMENT",
+        "sub_cat_id": "62cd98d953f5fe507c6b9b13",
+        "sub_cat_name": "NODE JS"
+    },
+    {
+        "cat_id": "62cd989f53f5fe2d946b9b10",
+        "cat_name": "WEB DEVELOPEMENT",
+        "sub_cat_id": "62cd98e453f5fe31336b9b14",
+        "sub_cat_name": "ANGULAR JS"
+    },
+    {
+        "cat_id": "62cd989f53f5fe2d946b9b10",
+        "cat_name": "WEB DEVELOPEMENT",
+        "sub_cat_id": "62cd98f253f5fe6a9e6b9b15",
+        "sub_cat_name": "CSS"
+    },
+    {
+        "cat_id": "62cd989f53f5fe2d946b9b10",
+        "cat_name": "WEB DEVELOPEMENT",
+        "sub_cat_id": "62cd990553f5fec7ea6b9b16",
+        "sub_cat_name": "HTML"
+    },
+    {
+        "cat_id": "62cd989f53f5fe2d946b9b10",
+        "cat_name": "WEB DEVELOPEMENT",
+        "sub_cat_id": "62cd990f53f5fe0a5d6b9b17",
+        "sub_cat_name": "PHP"
+    },
+    {
+        "cat_id": "62cd989f53f5fe2d946b9b10",
+        "cat_name": "WEB DEVELOPEMENT",
+        "sub_cat_id": "62cd991a53f5fe0df66b9b18",
+        "sub_cat_name": "REACT"
+    },
+    {
+        "cat_id": "62cd989f53f5fe2d946b9b10",
+        "cat_name": "WEB DEVELOPEMENT",
+        "sub_cat_id": "62cd992453f5fe29296b9b19",
+        "sub_cat_name": "VUE JS"
+    },
+    {
+        "cat_id": "62cd989f53f5fe2d946b9b10",
+        "cat_name": "WEB DEVELOPEMENT",
+        "sub_cat_id": "62cd993853f5fe0dc36b9b1a",
+        "sub_cat_name": "WEB DEVELOPMENT PROJECT"
+    },
+    {
+        "cat_id": "62cd989f53f5fe2d946b9b10",
+        "cat_name": "WEB DEVELOPEMENT",
+        "sub_cat_id": "62cd994253f5fe4e456b9b1b",
+        "sub_cat_name": "DJANGO"
+    },
+    {
+        "cat_id": "62cd989f53f5fe2d946b9b10",
+        "cat_name": "WEB DEVELOPEMENT",
+        "sub_cat_id": "62cd994c53f5fe16556b9b1c",
+        "sub_cat_name": "BOOTSTRAP"
+    },
+    {
+        "cat_id": "62cd989f53f5fe2d946b9b10",
+        "cat_name": "WEB DEVELOPEMENT",
+        "sub_cat_id": "62cd995653f5fe242d6b9b1d",
+        "sub_cat_name": "FAST API"
+    },
+    {
+        "cat_id": "62cd989f53f5fe2d946b9b10",
+        "cat_name": "WEB DEVELOPEMENT",
+        "sub_cat_id": "62cd996353f5fe1d196b9b1e",
+        "sub_cat_name": "WEB DEVELOPEMENT INTERVIEW"
+    },
+    {
+        "cat_id": "62cd989f53f5fe2d946b9b10",
+        "cat_name": "WEB DEVELOPEMENT",
+        "sub_cat_id": "62cd997253f5fe5bdd6b9b1f",
+        "sub_cat_name": "NEXTJS"
+    },
+    {
+        "cat_id": "62cd989f53f5fe2d946b9b10",
+        "cat_name": "WEB DEVELOPEMENT",
+        "sub_cat_id": "62cd997d53f5fe66166b9b20",
+        "sub_cat_name": "UI_UX"
+    },
+    {
+        "cat_id": "62cd99ab53f5fe2bf26b9b21",
+        "cat_name": "MOBILE DEVELOPEMENT",
+        "sub_cat_id": "62cd99dd53f5fe7a916b9b22",
+        "sub_cat_name": "REACT NATIVE"
+    },
+    {
+        "cat_id": "62cd99ab53f5fe2bf26b9b21",
+        "cat_name": "MOBILE DEVELOPEMENT",
+        "sub_cat_id": "62cd99e753f5fec54a6b9b23",
+        "sub_cat_name": "ANDROID"
+    },
+    {
+        "cat_id": "62cd99ab53f5fe2bf26b9b21",
+        "cat_name": "MOBILE DEVELOPEMENT",
+        "sub_cat_id": "62cd99f053f5fe23be6b9b24",
+        "sub_cat_name": "KOTLIN"
+    },
+    {
+        "cat_id": "62cd99ab53f5fe2bf26b9b21",
+        "cat_name": "MOBILE DEVELOPEMENT",
+        "sub_cat_id": "62cd99f953f5fe7a0d6b9b25",
+        "sub_cat_name": "IOS"
+    },
+    {
+        "cat_id": "62cd99ab53f5fe2bf26b9b21",
+        "cat_name": "MOBILE DEVELOPEMENT",
+        "sub_cat_id": "62cd9a0353f5fefafe6b9b26",
+        "sub_cat_name": "REACT NATIVE PROJECT"
+    },
+    {
+        "cat_id": "62cd99ab53f5fe2bf26b9b21",
+        "cat_name": "MOBILE DEVELOPEMENT",
+        "sub_cat_id": "62cd9a1553f5fe0d3e6b9b27",
+        "sub_cat_name": "ANDROID PROJECT"
+    },
+    {
+        "cat_id": "62cd99ab53f5fe2bf26b9b21",
+        "cat_name": "MOBILE DEVELOPEMENT",
+        "sub_cat_id": "62cd9a2253f5fef8e96b9b28",
+        "sub_cat_name": "KOTLIN PROJECT"
+    },
+    {
+        "cat_id": "62cd99ab53f5fe2bf26b9b21",
+        "cat_name": "MOBILE DEVELOPEMENT",
+        "sub_cat_id": "62cd9a2b53f5fe7c076b9b29",
+        "sub_cat_name": "IOS PROJECT"
+    },
+    {
+        "cat_id": "62cd99ab53f5fe2bf26b9b21",
+        "cat_name": "MOBILE DEVELOPEMENT",
+        "sub_cat_id": "62cd9a3753f5fee4876b9b2a",
+        "sub_cat_name": "REACT NATIVE INTERVIEW PREPARATION"
+    },
+    {
+        "cat_id": "62cd99ab53f5fe2bf26b9b21",
+        "cat_name": "MOBILE DEVELOPEMENT",
+        "sub_cat_id": "62cd9a4a53f5feb8b16b9b2b",
+        "sub_cat_name": "ANDRIOID INTERVIEW PREPARATION"
+    },
+    {
+        "cat_id": "62cd99ab53f5fe2bf26b9b21",
+        "cat_name": "MOBILE DEVELOPEMENT",
+        "sub_cat_id": "62cd9a5253f5feaf866b9b2c",
+        "sub_cat_name": "KOTLIN INTERVIEW PREPARATION"
+    },
+    {
+        "cat_id": "62cd99ab53f5fe2bf26b9b21",
+        "cat_name": "MOBILE DEVELOPEMENT",
+        "sub_cat_id": "62cd9a5b53f5fe91db6b9b2d",
+        "sub_cat_name": "IOS INTERVIEW PREPARATION"
+    },
+    {
+        "cat_id": "62cd99ab53f5fe2bf26b9b21",
+        "cat_name": "MOBILE DEVELOPEMENT",
+        "sub_cat_id": "62cda86a53f5feb2406b9bb5",
+        "sub_cat_name": "DART"
+    },
+    {
+        "cat_id": "62cd99ab53f5fe2bf26b9b21",
+        "cat_name": "MOBILE DEVELOPEMENT",
+        "sub_cat_id": "62cda86f53f5feebd86b9bb6",
+        "sub_cat_name": "FLUTTER"
+    },
+    {
+        "cat_id": "62cd9a7753f5feae2f6b9b2e",
+        "cat_name": "BLOCKCHAIN",
+        "sub_cat_id": "62cd9a9553f5fea7056b9b2f",
+        "sub_cat_name": "BLOCKCHAIN MASTERS"
+    },
+    {
+        "cat_id": "62cd9a7753f5feae2f6b9b2e",
+        "cat_name": "BLOCKCHAIN",
+        "sub_cat_id": "62cd9a9f53f5fe82346b9b30",
+        "sub_cat_name": "NFT"
+    },
+    {
+        "cat_id": "62cd9a7753f5feae2f6b9b2e",
+        "cat_name": "BLOCKCHAIN",
+        "sub_cat_id": "62cd9aae53f5fe49376b9b31",
+        "sub_cat_name": "SOLIDITY"
+    },
+    {
+        "cat_id": "62cd9a7753f5feae2f6b9b2e",
+        "cat_name": "BLOCKCHAIN",
+        "sub_cat_id": "62cd9ab853f5fed1066b9b32",
+        "sub_cat_name": "WEB 3.0"
+    },
+    {
+        "cat_id": "62cd9a7753f5feae2f6b9b2e",
+        "cat_name": "BLOCKCHAIN",
+        "sub_cat_id": "62cd9ac353f5fef6a76b9b33",
+        "sub_cat_name": "BLOCKCHAIN PROJECT"
+    },
+    {
+        "cat_id": "62cd9a7753f5feae2f6b9b2e",
+        "cat_name": "BLOCKCHAIN",
+        "sub_cat_id": "62cd9acc53f5fe45046b9b34",
+        "sub_cat_name": "BLOCKCHAIN INTERVIEW PREPARATION"
+    },
+    {
+        "cat_id": "62cd9b1b53f5fe033b6b9b35",
+        "cat_name": "PROGRAMMING",
+        "sub_cat_id": "62cd9b4c53f5fe6d836b9b36",
+        "sub_cat_name": "JAVA"
+    },
+    {
+        "cat_id": "62cd9b1b53f5fe033b6b9b35",
+        "cat_name": "PROGRAMMING",
+        "sub_cat_id": "62cd9b4f53f5fe2d3e6b9b37",
+        "sub_cat_name": "C"
+    },
+    {
+        "cat_id": "62cd9b1b53f5fe033b6b9b35",
+        "cat_name": "PROGRAMMING",
+        "sub_cat_id": "62cd9b5153f5fe0f306b9b38",
+        "sub_cat_name": "C++"
+    },
+    {
+        "cat_id": "62cd9b1b53f5fe033b6b9b35",
+        "cat_name": "PROGRAMMING",
+        "sub_cat_id": "62cd9bde53f5fec28a6b9b39",
+        "sub_cat_name": "C Sharp"
+    },
+    {
+        "cat_id": "62cd9b1b53f5fe033b6b9b35",
+        "cat_name": "PROGRAMMING",
+        "sub_cat_id": "62cd9be653f5fe10fe6b9b3a",
+        "sub_cat_name": "GOLANG"
+    },
+    {
+        "cat_id": "62cd9b1b53f5fe033b6b9b35",
+        "cat_name": "PROGRAMMING",
+        "sub_cat_id": "62cd9bec53f5fe46b86b9b3b",
+        "sub_cat_name": "PYTHON"
+    },
+    {
+        "cat_id": "62cd9b1b53f5fe033b6b9b35",
+        "cat_name": "PROGRAMMING",
+        "sub_cat_id": "62cd9bef53f5fe78f56b9b3c",
+        "sub_cat_name": "RUBY AND RAILS"
+    },
+    {
+        "cat_id": "62cd9b1b53f5fe033b6b9b35",
+        "cat_name": "PROGRAMMING",
+        "sub_cat_id": "62cd9bf353f5fe07e36b9b3d",
+        "sub_cat_name": "SHELL SCRIPTING"
+    },
+    {
+        "cat_id": "62cd9b1b53f5fe033b6b9b35",
+        "cat_name": "PROGRAMMING",
+        "sub_cat_id": "62cd9bf653f5fe862e6b9b3e",
+        "sub_cat_name": "SCALA"
+    },
+    {
+        "cat_id": "62cd9b1b53f5fe033b6b9b35",
+        "cat_name": "PROGRAMMING",
+        "sub_cat_id": "62cd9bfa53f5fe1a086b9b3f",
+        "sub_cat_name": "R"
+    },
+    {
+        "cat_id": "62cd9b1b53f5fe033b6b9b35",
+        "cat_name": "PROGRAMMING",
+        "sub_cat_id": "62cd9c0153f5fe48466b9b40",
+        "sub_cat_name": "JULIA"
+    },
+    {
+        "cat_id": "62cd9b1b53f5fe033b6b9b35",
+        "cat_name": "PROGRAMMING",
+        "sub_cat_id": "62cd9c0353f5fe4a8e6b9b41",
+        "sub_cat_name": "LATEX"
+    },
+    {
+        "cat_id": "62cd9b1b53f5fe033b6b9b35",
+        "cat_name": "PROGRAMMING",
+        "sub_cat_id": "62cd9c0453f5fe0ee96b9b42",
+        "sub_cat_name": "MATLAB"
+    },
+    {
+        "cat_id": "62cd9b1b53f5fe033b6b9b35",
+        "cat_name": "PROGRAMMING",
+        "sub_cat_id": "62cd9c0553f5fec6746b9b43",
+        "sub_cat_name": "SPRING BOOT"
+    },
+    {
+        "cat_id": "62cd9b1b53f5fe033b6b9b35",
+        "cat_name": "PROGRAMMING",
+        "sub_cat_id": "62cd9c0653f5fe4c316b9b44",
+        "sub_cat_name": "SAS"
+    },
+    {
+        "cat_id": "62cd9b1b53f5fe033b6b9b35",
+        "cat_name": "PROGRAMMING",
+        "sub_cat_id": "62cd9c0753f5fe279a6b9b45",
+        "sub_cat_name": "API"
+    },
+    {
+        "cat_id": "62cd9c2453f5fedece6b9b46",
+        "cat_name": "CYBER SECURITY",
+        "sub_cat_id": "62cd9c5e53f5fed0706b9b47",
+        "sub_cat_name": "CYBERSECURITY MASTERS"
+    },
+    {
+        "cat_id": "62cd9c2453f5fedece6b9b46",
+        "cat_name": "CYBER SECURITY",
+        "sub_cat_id": "62cd9c6f53f5fe57ee6b9b49",
+        "sub_cat_name": "CYBERSECURITY INTERVIEW PREPARATION"
+    },
+    {
+        "cat_id": "62cd9c2453f5fedece6b9b46",
+        "cat_name": "CYBER SECURITY",
+        "sub_cat_id": "62cd9c7253f5fe56cf6b9b4a",
+        "sub_cat_name": "CYBERSECURITY PROJECT"
+    },
+    {
+        "cat_id": "62cd9c8a53f5fea2fc6b9b4b",
+        "cat_name": "TESTING",
+        "sub_cat_id": "62cd9cc053f5fe1b546b9b4c",
+        "sub_cat_name": "AUTOMATION TESTING"
+    },
+    {
+        "cat_id": "62cd9c8a53f5fea2fc6b9b4b",
+        "cat_name": "TESTING",
+        "sub_cat_id": "62cd9cc353f5fe55c06b9b4d",
+        "sub_cat_name": "MANUAL TESTING"
+    },
+    {
+        "cat_id": "62cd9c8a53f5fea2fc6b9b4b",
+        "cat_name": "TESTING",
+        "sub_cat_id": "62cd9cc553f5fe28566b9b4e",
+        "sub_cat_name": "TESTING INTERVIEW PREPARATION"
+    },
+    {
+        "cat_id": "62cd9c8a53f5fea2fc6b9b4b",
+        "cat_name": "TESTING",
+        "sub_cat_id": "62cd9cc853f5fe1c0e6b9b4f",
+        "sub_cat_name": "TESTING PROJECT"
+    },
+    {
+        "cat_id": "62cd9cf353f5fe408c6b9b50",
+        "cat_name": "DIGITAL MARKETING",
+        "sub_cat_id": "62cd9d5753f5fe2dd66b9b51",
+        "sub_cat_name": "DIGITAL MARKETING MASTERS"
+    },
+    {
+        "cat_id": "62cd9cf353f5fe408c6b9b50",
+        "cat_name": "DIGITAL MARKETING",
+        "sub_cat_id": "62cd9d5953f5fe26466b9b52",
+        "sub_cat_name": "EMAIL MARKETING"
+    },
+    {
+        "cat_id": "62cd9cf353f5fe408c6b9b50",
+        "cat_name": "DIGITAL MARKETING",
+        "sub_cat_id": "62cd9d5b53f5fee1306b9b53",
+        "sub_cat_name": "SEO"
+    },
+    {
+        "cat_id": "62cd9cf353f5fe408c6b9b50",
+        "cat_name": "DIGITAL MARKETING",
+        "sub_cat_id": "62cd9d5e53f5feeeaf6b9b54",
+        "sub_cat_name": "YOUTUBE MARKETING"
+    },
+    {
+        "cat_id": "62cd9cf353f5fe408c6b9b50",
+        "cat_name": "DIGITAL MARKETING",
+        "sub_cat_id": "62cd9d6253f5fe14656b9b55",
+        "sub_cat_name": "GOOGLE ADS"
+    },
+    {
+        "cat_id": "62cd9cf353f5fe408c6b9b50",
+        "cat_name": "DIGITAL MARKETING",
+        "sub_cat_id": "62cd9d6653f5fef9456b9b56",
+        "sub_cat_name": "FACEBOOK MARKETING"
+    },
+    {
+        "cat_id": "62cd9cf353f5fe408c6b9b50",
+        "cat_name": "DIGITAL MARKETING",
+        "sub_cat_id": "62cd9d6b53f5fe58916b9b57",
+        "sub_cat_name": "INSTAGRAM MARKETING"
+    },
+    {
+        "cat_id": "62cd9cf353f5fe408c6b9b50",
+        "cat_name": "DIGITAL MARKETING",
+        "sub_cat_id": "62cd9d6f53f5fe7d206b9b58",
+        "sub_cat_name": "LINKEDIN MARKETING"
+    },
+    {
+        "cat_id": "62cd9cf353f5fe408c6b9b50",
+        "cat_name": "DIGITAL MARKETING",
+        "sub_cat_id": "62cd9d7553f5fe61a66b9b59",
+        "sub_cat_name": "DIGITAL MARKETING PROJECT"
+    },
+    {
+        "cat_id": "62cd9cf353f5fe408c6b9b50",
+        "cat_name": "DIGITAL MARKETING",
+        "sub_cat_id": "62cd9d7953f5fec0d86b9b5a",
+        "sub_cat_name": "DIGITAL MARKETING INTERVIEW"
+    },
+    {
+        "cat_id": "62cd9db453f5fe00316b9b5b",
+        "cat_name": "CLOUD",
+        "sub_cat_id": "62cd9e0a53f5fe84f96b9b5f",
+        "sub_cat_name": "AWS"
+    },
+    {
+        "cat_id": "62cd9db453f5fe00316b9b5b",
+        "cat_name": "CLOUD",
+        "sub_cat_id": "62cd9e0c53f5fe4cd46b9b60",
+        "sub_cat_name": "AZURE"
+    },
+    {
+        "cat_id": "62cd9db453f5fe00316b9b5b",
+        "cat_name": "CLOUD",
+        "sub_cat_id": "62cd9e0f53f5fe9c566b9b61",
+        "sub_cat_name": "GCP"
+    },
+    {
+        "cat_id": "62cd9db453f5fe00316b9b5b",
+        "cat_name": "CLOUD",
+        "sub_cat_id": "62cd9e1353f5feaa606b9b62",
+        "sub_cat_name": "AWS INTERVIEW PREPARATION"
+    },
+    {
+        "cat_id": "62cd9db453f5fe00316b9b5b",
+        "cat_name": "CLOUD",
+        "sub_cat_id": "62cd9e1753f5fe14226b9b63",
+        "sub_cat_name": "AWS PROJECT"
+    },
+    {
+        "cat_id": "62cd9db453f5fe00316b9b5b",
+        "cat_name": "CLOUD",
+        "sub_cat_id": "62cd9e1c53f5fe56456b9b65",
+        "sub_cat_name": "AZURE INTERVIEW PREPARATION"
+    },
+    {
+        "cat_id": "62cd9db453f5fe00316b9b5b",
+        "cat_name": "CLOUD",
+        "sub_cat_id": "62cd9e2053f5fe68a36b9b66",
+        "sub_cat_name": "AZURE PROJECT"
+    },
+    {
+        "cat_id": "62cd9db453f5fe00316b9b5b",
+        "cat_name": "CLOUD",
+        "sub_cat_id": "62cd9e2453f5fe18466b9b67",
+        "sub_cat_name": "GCP INTERVIEW PREPARATION"
+    },
+    {
+        "cat_id": "62cd9db453f5fe00316b9b5b",
+        "cat_name": "CLOUD",
+        "sub_cat_id": "62cd9e2953f5fec0876b9b69",
+        "sub_cat_name": "GCP PROJECT"
+    },
+    {
+        "cat_id": "62cd9e4153f5feeeec6b9b6a",
+        "cat_name": "DEVOPS",
+        "sub_cat_id": "62cd9f4053f5fe399a6b9b6b",
+        "sub_cat_name": "DEVOPS MASTERS"
+    },
+    {
+        "cat_id": "62cd9e4153f5feeeec6b9b6a",
+        "cat_name": "DEVOPS",
+        "sub_cat_id": "62cd9f4453f5fe20e56b9b6c",
+        "sub_cat_name": "DOCKER"
+    },
+    {
+        "cat_id": "62cd9e4153f5feeeec6b9b6a",
+        "cat_name": "DEVOPS",
+        "sub_cat_id": "62cd9f4753f5fe06e46b9b6d",
+        "sub_cat_name": "KUBERNETES"
+    },
+    {
+        "cat_id": "62cd9e4153f5feeeec6b9b6a",
+        "cat_name": "DEVOPS",
+        "sub_cat_id": "62cd9f4b53f5fe33e26b9b6e",
+        "sub_cat_name": "JENKINS"
+    },
+    {
+        "cat_id": "62cd9e4153f5feeeec6b9b6a",
+        "cat_name": "DEVOPS",
+        "sub_cat_id": "62cd9f4e53f5fe168e6b9b6f",
+        "sub_cat_name": "ANSIBLE"
+    },
+    {
+        "cat_id": "62cd9e4153f5feeeec6b9b6a",
+        "cat_name": "DEVOPS",
+        "sub_cat_id": "62cd9f5253f5feec166b9b70",
+        "sub_cat_name": "LINUX"
+    },
+    {
+        "cat_id": "62cd9e4153f5feeeec6b9b6a",
+        "cat_name": "DEVOPS",
+        "sub_cat_id": "62cd9f5653f5fe51d96b9b71",
+        "sub_cat_name": "GIT"
+    },
+    {
+        "cat_id": "62cd9e4153f5feeeec6b9b6a",
+        "cat_name": "DEVOPS",
+        "sub_cat_id": "62cd9f5a53f5fe83166b9b72",
+        "sub_cat_name": "TERRAFORM"
+    },
+    {
+        "cat_id": "62cd9e4153f5feeeec6b9b6a",
+        "cat_name": "DEVOPS",
+        "sub_cat_id": "62cd9f5e53f5fe44616b9b73",
+        "sub_cat_name": "DEVOPS INTERVIEW"
+    },
+    {
+        "cat_id": "62cd9e4153f5feeeec6b9b6a",
+        "cat_name": "DEVOPS",
+        "sub_cat_id": "62cd9f6253f5fe24756b9b74",
+        "sub_cat_name": "DEVOPS PROJECTS"
+    },
+    {
+        "cat_id": "62cd9f7a53f5fe027b6b9b75",
+        "cat_name": "IOT",
+        "sub_cat_id": "62cd9fa453f5fefcb26b9b76",
+        "sub_cat_name": "IOT MASTERS"
+    },
+    {
+        "cat_id": "62cd9f7a53f5fe027b6b9b75",
+        "cat_name": "IOT",
+        "sub_cat_id": "62cd9fa653f5fedeee6b9b77",
+        "sub_cat_name": "IOT INTERVIEW"
+    },
+    {
+        "cat_id": "62cd9f7a53f5fe027b6b9b75",
+        "cat_name": "IOT",
+        "sub_cat_id": "62cd9faa53f5fe7b0e6b9b78",
+        "sub_cat_name": "IOT PROJECTS"
+    },
+    {
+        "cat_id": "62cd9fd053f5fef18e6b9b79",
+        "cat_name": "RPA",
+        "sub_cat_id": "62cda00353f5fe359a6b9b7a",
+        "sub_cat_name": "UIPATH"
+    },
+    {
+        "cat_id": "62cd9fd053f5fef18e6b9b79",
+        "cat_name": "RPA",
+        "sub_cat_id": "62cda00653f5fe34ca6b9b7b",
+        "sub_cat_name": "RPA INTERVIEW"
+    },
+    {
+        "cat_id": "62cd9fd053f5fef18e6b9b79",
+        "cat_name": "RPA",
+        "sub_cat_id": "62cda00953f5feda7d6b9b7c",
+        "sub_cat_name": "RPA PROJECTS"
+    },
+    {
+        "cat_id": "62cd9fd053f5fef18e6b9b79",
+        "cat_name": "RPA",
+        "sub_cat_id": "62cda00d53f5fe0aa36b9b7d",
+        "sub_cat_name": "RPA MASTERS"
+    },
+    {
+        "cat_id": "62cda02653f5fe516c6b9b7e",
+        "cat_name": "AR VR",
+        "sub_cat_id": "62cda04d53f5fed7516b9b7f",
+        "sub_cat_name": "SPARK AR"
+    },
+    {
+        "cat_id": "62cda02653f5fe516c6b9b7e",
+        "cat_name": "AR VR",
+        "sub_cat_id": "62cda05253f5fe29d56b9b80",
+        "sub_cat_name": "AR VR INTERVIEW"
+    },
+    {
+        "cat_id": "62cda02653f5fe516c6b9b7e",
+        "cat_name": "AR VR",
+        "sub_cat_id": "62cda05553f5fe4bae6b9b81",
+        "sub_cat_name": "AR VR PROJECTS"
+    },
+    {
+        "cat_id": "62cda07353f5fefc836b9b82",
+        "cat_name": "SALESFORCE",
+        "sub_cat_id": "62cda09353f5fe09296b9b83",
+        "sub_cat_name": "SALESFORCE ADMINISTRATOR"
+    },
+    {
+        "cat_id": "62cda07353f5fefc836b9b82",
+        "cat_name": "SALESFORCE",
+        "sub_cat_id": "62cda09953f5fec8be6b9b84",
+        "sub_cat_name": "SALESFORCE DEVELOPER"
+    },
+    {
+        "cat_id": "62cda0bd53f5fe0d636b9b85",
+        "cat_name": "DATA STRUCTURE",
+        "sub_cat_id": "62cda11553f5fe15ec6b9b86",
+        "sub_cat_name": "DSA MASTERS"
+    },
+    {
+        "cat_id": "62cda0bd53f5fe0d636b9b85",
+        "cat_name": "DATA STRUCTURE",
+        "sub_cat_id": "62cda11e53f5fe7a386b9b87",
+        "sub_cat_name": "DSA WITH PYTHON"
+    },
+    {
+        "cat_id": "62cda0bd53f5fe0d636b9b85",
+        "cat_name": "DATA STRUCTURE",
+        "sub_cat_id": "62cda12053f5fefad66b9b88",
+        "sub_cat_name": "DSA WITH C++"
+    },
+    {
+        "cat_id": "62cda0bd53f5fe0d636b9b85",
+        "cat_name": "DATA STRUCTURE",
+        "sub_cat_id": "62cda12453f5fe79776b9b89",
+        "sub_cat_name": "DSA WITH JAVA"
+    },
+    {
+        "cat_id": "62cda0bd53f5fe0d636b9b85",
+        "cat_name": "DATA STRUCTURE",
+        "sub_cat_id": "62cda12a53f5fe299f6b9b8a",
+        "sub_cat_name": "DSA WITH JAVASCRIPT"
+    },
+    {
+        "cat_id": "62cda0bd53f5fe0d636b9b85",
+        "cat_name": "DATA STRUCTURE",
+        "sub_cat_id": "62cda12f53f5fef0be6b9b8b",
+        "sub_cat_name": "DSA INTERVIEW"
+    },
+    {
+        "cat_id": "62cda0bd53f5fe0d636b9b85",
+        "cat_name": "DATA STRUCTURE",
+        "sub_cat_id": "62cda13453f5fe428a6b9b8c",
+        "sub_cat_name": "ADVANCED DSA"
+    },
+    {
+        "cat_id": "62cda0bd53f5fe0d636b9b85",
+        "cat_name": "DATA STRUCTURE",
+        "sub_cat_id": "62cda13853f5fe6e156b9b8d",
+        "sub_cat_name": "MAANG INTERVIEW PREPARATION"
+    },
+    {
+        "cat_id": "62cda14c53f5fe15046b9b8e",
+        "cat_name": "SYSTEM DESIGN",
+        "sub_cat_id": "62cda16c53f5fe9b646b9b8f",
+        "sub_cat_name": "SYSTEM DESIGN MASTERS"
+    },
+    {
+        "cat_id": "62cda14c53f5fe15046b9b8e",
+        "cat_name": "SYSTEM DESIGN",
+        "sub_cat_id": "62cda19553f5fe8cf86b9b90",
+        "sub_cat_name": "SYSTEM DESIGN"
+    },
+    {
+        "cat_id": "62cda14c53f5fe15046b9b8e",
+        "cat_name": "SYSTEM DESIGN",
+        "sub_cat_id": "62cda19d53f5fe12be6b9b91",
+        "sub_cat_name": "DESIGN PATTERNS"
+    },
+    {
+        "cat_id": "62cda14c53f5fe15046b9b8e",
+        "cat_name": "SYSTEM DESIGN",
+        "sub_cat_id": "62cda1a153f5fe80766b9b92",
+        "sub_cat_name": "SYSTEM DESIGN INTERVIEW QUESTIONS"
+    },
+    {
+        "cat_id": "62cda14c53f5fe15046b9b8e",
+        "cat_name": "SYSTEM DESIGN",
+        "sub_cat_id": "62cda1a653f5fe7f906b9b93",
+        "sub_cat_name": "DESIGN PATTERNS INTERVIEW QUESTIONS"
+    },
+    {
+        "cat_id": "62cda1cc53f5fe24f86b9b94",
+        "cat_name": "DATABASE",
+        "sub_cat_id": "62cda22353f5fe368e6b9b95",
+        "sub_cat_name": "MYSQL"
+    },
+    {
+        "cat_id": "62cda1cc53f5fe24f86b9b94",
+        "cat_name": "DATABASE",
+        "sub_cat_id": "62cda22853f5fe13db6b9b96",
+        "sub_cat_name": "MSSQL"
+    },
+    {
+        "cat_id": "62cda1cc53f5fe24f86b9b94",
+        "cat_name": "DATABASE",
+        "sub_cat_id": "62cda22c53f5fee88e6b9b97",
+        "sub_cat_name": "MONGODB"
+    },
+    {
+        "cat_id": "62cda1cc53f5fe24f86b9b94",
+        "cat_name": "DATABASE",
+        "sub_cat_id": "62cda23253f5fe577c6b9b98",
+        "sub_cat_name": "CASSANDRA"
+    },
+    {
+        "cat_id": "62cda1cc53f5fe24f86b9b94",
+        "cat_name": "DATABASE",
+        "sub_cat_id": "62cda23753f5fe3d426b9b99",
+        "sub_cat_name": "HBASE"
+    },
+    {
+        "cat_id": "62cda1cc53f5fe24f86b9b94",
+        "cat_name": "DATABASE",
+        "sub_cat_id": "62cda23d53f5fe40a86b9b9a",
+        "sub_cat_name": "NEO4J"
+    },
+    {
+        "cat_id": "62cda1cc53f5fe24f86b9b94",
+        "cat_name": "DATABASE",
+        "sub_cat_id": "62cda24353f5fe071b6b9b9b",
+        "sub_cat_name": "ORACLE"
+    },
+    {
+        "cat_id": "62cda1cc53f5fe24f86b9b94",
+        "cat_name": "DATABASE",
+        "sub_cat_id": "62cda24853f5fe52066b9b9c",
+        "sub_cat_name": "GRAPHQL"
+    },
+    {
+        "cat_id": "62cda1cc53f5fe24f86b9b94",
+        "cat_name": "DATABASE",
+        "sub_cat_id": "62cda24c53f5fe6c866b9b9d",
+        "sub_cat_name": "POSTGRESQL"
+    },
+    {
+        "cat_id": "62cda26553f5fe5dbc6b9b9e",
+        "cat_name": "APTITUDE",
+        "sub_cat_id": "62cda27653f5feef846b9b9f",
+        "sub_cat_name": "APTITUDE"
+    },
+    {
+        "cat_id": "62cda29353f5fe0b6b6b9ba0",
+        "cat_name": "RESUME",
+        "sub_cat_id": "62cda2e153f5fec4246b9ba1",
+        "sub_cat_name": "RESUME DATA SCIENCE"
+    },
+    {
+        "cat_id": "62cda29353f5fe0b6b6b9ba0",
+        "cat_name": "RESUME",
+        "sub_cat_id": "62cda2ed53f5fe74056b9ba2",
+        "sub_cat_name": "RESUME BIG DATA"
+    },
+    {
+        "cat_id": "62cda29353f5fe0b6b6b9ba0",
+        "cat_name": "RESUME",
+        "sub_cat_id": "62cda2f753f5feeb906b9ba3",
+        "sub_cat_name": "RESUME DATA ANALYTICS"
+    },
+    {
+        "cat_id": "62cda29353f5fe0b6b6b9ba0",
+        "cat_name": "RESUME",
+        "sub_cat_id": "62cda30153f5fe76006b9ba4",
+        "sub_cat_name": "RESUME WEB DEVELOPMENT"
+    },
+    {
+        "cat_id": "62cda29353f5fe0b6b6b9ba0",
+        "cat_name": "RESUME",
+        "sub_cat_id": "62cda30b53f5fe2cff6b9ba5",
+        "sub_cat_name": "RESUME MOBILE DEVELOPMENT"
+    },
+    {
+        "cat_id": "62cda29353f5fe0b6b6b9ba0",
+        "cat_name": "RESUME",
+        "sub_cat_id": "62cda31a53f5fe534c6b9ba6",
+        "sub_cat_name": "RESUME BLOCKCHAIN"
+    },
+    {
+        "cat_id": "62cda29353f5fe0b6b6b9ba0",
+        "cat_name": "RESUME",
+        "sub_cat_id": "62cda33253f5fe525a6b9ba7",
+        "sub_cat_name": "RESUME PROGRAMMING"
+    },
+    {
+        "cat_id": "62cda29353f5fe0b6b6b9ba0",
+        "cat_name": "RESUME",
+        "sub_cat_id": "62cda33e53f5fe38916b9ba8",
+        "sub_cat_name": "RESUME CYBERSECUTIRY"
+    },
+    {
+        "cat_id": "62cda29353f5fe0b6b6b9ba0",
+        "cat_name": "RESUME",
+        "sub_cat_id": "62cda34d53f5fe1e406b9ba9",
+        "sub_cat_name": "RESUME TESTING"
+    },
+    {
+        "cat_id": "62cda29353f5fe0b6b6b9ba0",
+        "cat_name": "RESUME",
+        "sub_cat_id": "62cda35453f5fe05926b9baa",
+        "sub_cat_name": "RESUME DIGITAL MARKETING"
+    },
+    {
+        "cat_id": "62cda29353f5fe0b6b6b9ba0",
+        "cat_name": "RESUME",
+        "sub_cat_id": "62cda35f53f5fe6b556b9bab",
+        "sub_cat_name": "RESUME CLOUD"
+    },
+    {
+        "cat_id": "62cda29353f5fe0b6b6b9ba0",
+        "cat_name": "RESUME",
+        "sub_cat_id": "62cda36853f5fe1fe76b9bac",
+        "sub_cat_name": "RESUME DEVOPS"
+    },
+    {
+        "cat_id": "62cda29353f5fe0b6b6b9ba0",
+        "cat_name": "RESUME",
+        "sub_cat_id": "62cda37153f5fe156b6b9bad",
+        "sub_cat_name": "RESUME IOT"
+    },
+    {
+        "cat_id": "62cda29353f5fe0b6b6b9ba0",
+        "cat_name": "RESUME",
+        "sub_cat_id": "62cda38e53f5fe5f946b9bae",
+        "sub_cat_name": "RESUME SALESFORCE"
+    },
+    {
+        "cat_id": "62cda3ad53f5fef61e6b9baf",
+        "cat_name": "K12",
+        "sub_cat_id": "62cda3e553f5febceb6b9bb0",
+        "sub_cat_name": "CLASS6"
+    },
+    {
+        "cat_id": "62cda3ad53f5fef61e6b9baf",
+        "cat_name": "K12",
+        "sub_cat_id": "62cda3ea53f5fe40776b9bb1",
+        "sub_cat_name": "CLASS7"
+    },
+    {
+        "cat_id": "62cda3ad53f5fef61e6b9baf",
+        "cat_name": "K12",
+        "sub_cat_id": "62cda3ef53f5fe87cc6b9bb2",
+        "sub_cat_name": "CLASS8"
+    },
+    {
+        "cat_id": "62cda3ad53f5fef61e6b9baf",
+        "cat_name": "K12",
+        "sub_cat_id": "62cda3f653f5fee9276b9bb3",
+        "sub_cat_name": "CLASS9"
+    },
+    {
+        "cat_id": "62cda3ad53f5fef61e6b9baf",
+        "cat_name": "K12",
+        "sub_cat_id": "62cda3fb53f5fe04116b9bb4",
+        "sub_cat_name": "CLASS10"
+    }
+]

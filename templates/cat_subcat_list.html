@@ -1,0 +1,47 @@
+{% extends 'base.html' %}
+
+{% block title %}
+  Category-SubCategory List
+{% endblock %}
+
+{% block content %}
+<style>
+tr:nth-child(even) {
+  background-color: #D6EEEE;
+}
+
+thead{background-color: gray;}
+
+</style>
+<table class="table table-hover table-light">
+
+      <thead style="color:white">
+        <tr >
+            <th scope="col">#</th>
+            <th scope="col">Category</th>
+            <th scope="col">Sub Category</th>
+        </tr>
+      </thead>
+
+
+      <tbody>
+      <form class="dark" method="POST" action={{url_for("cat_subcat_list")}} >
+
+          {% for item in cat_subcat_data %}
+
+          <tr >
+              <td>{{loop.index}}</td>
+              <td>
+                  <button type="submit"  style="background-color:#FCE4EC" name="c_name" value='c{{item.cat_id}}'><strong>{{item.cat_name}}</strong></button>
+              </td>
+              <td>
+                  <button type="submit"  style="background-color:lightblue" name="c_name" value='s{{item.sub_cat_id}}'><strong>{{item.sub_cat_name}}</strong></button>
+              </td>
+          </tr>
+
+          {% endfor %}
+      </form>
+      </tbody>
+</table>
+
+{% endblock %}

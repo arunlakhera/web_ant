@@ -1,0 +1,119 @@
+{% extends 'base.html' %}
+
+{% block title %}
+  Course List
+{% endblock %}
+
+
+{% block content %}
+
+<style>
+tr:nth-child(even) {
+  background-color: #D6EEEE;
+}
+
+thead{background-color: gray;}
+
+</style>
+
+<div class="inline" class="text-center" >
+    <div style="float: left; width: 225px">
+        <form class="dark" action={{url_for("cat_subcat_list")}} method="POST">
+            <button type="submit"  style="background-color:orange" name="c_name" value="{{user_sel_cat_subcat}}">
+                <strong>Go Back</strong>
+            </button>
+        </form>
+    </div>
+    <div style="float: right; width: 225px">
+        <form class="dark" action={{url_for("cat_subcat_list")}} method="POST">
+            <button type="submit"  style="background-color:lightgreen" name="c_name" value="{{user_sel_cat_subcat}}">
+                <strong>Save PDF to S3</strong>
+            </button>
+        </form>
+    </div>
+</div>
+
+
+<table class="table table-hover table-light">
+
+      <thead style="color:white; background-color:black">
+        <tr >
+            <th scope="col">#</th>
+            <th scope="col">Course Name</th>
+            <th scope="col">Course Description</th>
+            <th scope="col">Mode</th>
+            <th scope="col">Curriculum</th>
+            <th scope="col">Course Requirements</th>
+            <th scope="col">Course Features</th>
+            <th scope="col">Instructor Name</th>
+            <th scope="col">Instructors Social</th>
+            <th scope="col">Instructor Description</th>
+
+        </tr>
+      </thead>
+
+
+      <tbody>
+      <form class="dark" method="POST" action={{url_for("course_detail")}} >
+
+          {% for course in courses %}
+
+          <tr >
+              <td>{{loop.index}}</td>
+              <td>{{course['course_name']}}</td>
+              <td>{{course['course_description']}}</td>
+              <td>{{course['course_mode']}}</td>
+              <td>
+                    {% for item in course['course_curriculum'] %}
+                        {{item}} ,
+                    {% endfor %}
+              </td>
+              <td>
+                    {% for item in course['course_requirements'] %}
+                        {{item}} ,
+                    {% endfor %}
+              </td>
+              <td>
+                    {% for item in course['course_features'] %}
+                        {{item}} ,
+                    {% endfor %}
+              </td>
+              <td>
+                    {% for item in course['instructor_name'] %}
+                        - {{item}}, <br>
+                    {% endfor %}
+              </td>
+              <td>
+                    {% for item in course['instructors_social'] %}
+                        {%if item['linkedin']%}
+                            <a href={{item['linkedin']}}>{{item['linkedin']}}</a>, <br>
+                        {% endif %}
+                        {%if item['instagram']%}
+                            <a href={{item['linkedin']}}>{{item['instagram']}}</a>, <br>
+                        {% endif %}
+                        {%if item['facebook']%}
+                            <a href={{item['linkedin']}}>{{item['facebook']}}</a>, <br>
+                        {% endif %}
+                        {%if item['youtube']%}
+                            <a href={{item['linkedin']}}>{{item['youtube']}}</a>, <br>
+                        {% endif %}
+                        {%if item['github']%}
+                            <a href={{item['linkedin']}}>{{item['github']}}</a>, <br>
+                        {% endif %}
+
+                    {% endfor %}
+              </td>
+              <td>
+                    {% for item in course['instructor_description'] %}
+                        - {{item}}, <br>
+                    {% endfor %}
+              </td>
+          </tr>
+
+          {% endfor %}
+      </form>
+      </tbody>
+</table>
+
+
+{% endblock %}
