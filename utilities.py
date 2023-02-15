@@ -1,6 +1,23 @@
 import logging
 from fpdf import FPDF
+import boto3
 
+
+def save_to_s3(filename):
+    """
+    :param filename: takes filename of file to store in s3
+    :return:
+    """
+    # Create an S3 access object
+    s3 = boto3.client("s3")
+    try:
+        s3.upload_file(
+            Filename=filename,
+            Bucket="arunpdf",
+            Key="course.pdf",
+        )
+    except Exception as e:
+        logging.error(e)
 
 def save_to_pdf(user_sel_course):
     """
@@ -42,11 +59,17 @@ def save_to_pdf(user_sel_course):
         pdf.multi_cell(200, 10, txt=f"Instructors Social: {instructors_social}", align='L')
         pdf.multi_cell(200, 10, txt=f"Instructor Description: {instructor_description}", align='L')
 
-        file_name = f"{user_sel_course[0]['course_id']}.pdf"
+        # file_name = f"{user_sel_course[0]['course_id']}.pdf"
+        file_name = "course.pdf"
 
+        # Save pdf file
         pdf.output(file_name)
+
+        # save to s3
+        save_to_s3(file_name)
+
     except Exception as e:
         logging.error(e)
 
-    # Save to S3
+
 
