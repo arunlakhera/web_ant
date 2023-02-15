@@ -1,7 +1,10 @@
 # Add flask to requirements file
 from flask import Flask, render_template, request
 from helper.NeuronScrapper import NeuronScrapper
+import utilities
+
 import logging
+
 
 application = Flask(__name__)
 app = application
@@ -69,6 +72,23 @@ async def course_list():
 
 @app.route('/course_detail', methods=['GET', 'POST'])
 def course_detail():
+
+    if request.method == 'POST':
+
+        user_form_data = request.form['pdf']
+        user_form_data_list = user_form_data.split(',')
+        user_sel_course_id = user_form_data_list[0]
+        user_sel_course_id = user_sel_course_id[2:]
+        user_sel_course_id = user_sel_course_id[:len(user_sel_course_id) - 1]
+
+        user_sel_cat_subcat = user_form_data_list[1]
+        user_sel_cat_subcat = user_sel_cat_subcat[2:]
+        user_sel_cat_subcat = user_sel_cat_subcat[:len(user_sel_cat_subcat) - 1]
+
+        user_sel_course = data_neuron.get_course(courses_data, user_sel_course_id)
+        utilities.save_to_pdf(user_sel_course)
+
+        return render_template('course_detail.html', courses=user_sel_course, user_sel_cat_subcat=user_sel_cat_subcat)
 
     return render_template('course_detail.html', cat_subcat_data=cat_subcat_data)
 

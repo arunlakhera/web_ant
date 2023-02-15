@@ -25,8 +25,8 @@ thead{background-color: gray;}
         </form>
     </div>
     <div style="float: right; width: 225px">
-        <form class="dark" action={{url_for("cat_subcat_list")}} method="POST">
-            <button type="submit"  style="background-color:lightgreen" name="c_name" value="{{user_sel_cat_subcat}}">
+        <form class="dark" action={{url_for("course_detail")}} method="POST">
+            <button type="submit"  style="background-color:pink" name="pdf" value="{{courses[0]['course_id'],user_sel_cat_subcat}}">
                 <strong>Save PDF to S3</strong>
             </button>
         </form>
@@ -36,7 +36,7 @@ thead{background-color: gray;}
 
 <table class="table table-hover table-light">
 
-      <thead style="color:white; background-color:black">
+      <thead style="color:white;">
         <tr >
             <th scope="col">#</th>
             <th scope="col">Course Name</th>
@@ -48,10 +48,8 @@ thead{background-color: gray;}
             <th scope="col">Instructor Name</th>
             <th scope="col">Instructors Social</th>
             <th scope="col">Instructor Description</th>
-
         </tr>
       </thead>
-
 
       <tbody>
       <form class="dark" method="POST" action={{url_for("course_detail")}} >

@@ -15,10 +15,12 @@ thead{background-color: gray;}
 
 </style>
 
-<div class="text-center">
-    <form class="dark" action={{url_for("home_page")}} method="POST">
-        <button type="submit"  style="background-color:orange"><strong>Go Back</strong></button>
-    </form>
+<div class="inline" class="text-center" >
+    <div style="float: left; width: 225px">
+        <form class="dark" action={{url_for("home_page")}} method="POST">
+            <button type="submit"  style="background-color:orange"><strong>Go Back</strong></button>
+        </form>
+    </div>
 </div>
 
 <table class="table table-hover table-light">
@@ -27,7 +29,7 @@ thead{background-color: gray;}
         <tr >
             <th scope="col">#</th>
             <th scope="col">Course Name</th>
-            <th scope="col">Course Description</th>\
+            <th scope="col">Course Description</th>
             <th scope="col">Option</th>
 
         </tr>
@@ -44,8 +46,8 @@ thead{background-color: gray;}
               <td>{{course['course_name']}}</td>
               <td>{{course['course_description']}}</td>
               <td>
-                  <button type="submit"  style="background-color:lightblue" name="view_detail" value="{{course['course_id'],user_sel_cat_subcat}}">
-                      <strong>View Details</strong>
+                  <button type="submit"  style="background-color:pink" name="view_detail" value="{{course['course_id'],user_sel_cat_subcat}}">
+                      <strong>View</strong>
                   </button>
               </td>
           </tr>
