@@ -19,20 +19,28 @@ data_neuron = NeuronScrapper("https://ineuron.ai")
 cat_subcat_data, courses_data = data_neuron.get_data()
 
 
-@app.route('/')
+@app.route('/',  methods=['GET', 'POST'])
 @app.route('/home_page', methods=['GET', 'POST'])
 async def home_page():
 
     if request.method == 'POST':
-        try:
-            utilities.save_to_mongodb(cat_subcat_data, courses_data)
-            utilities.save_to_mysql(courses_data)
-
-            return render_template('cat_subcat_list.html', cat_subcat_data=cat_subcat_data)
-        except Exception as e:
-            logging.error(e)
+        return render_template("loading.html")
 
     return render_template('home.html')
+
+@app.route('/loading')
+def loading():
+    return render_template("loading.html")
+
+
+@app.route('/load_data')
+def load_data():
+    try:
+        utilities.save_to_mongodb(cat_subcat_data, courses_data)
+        utilities.save_to_mysql(courses_data)
+
+    except Exception as e:
+        logging.error(e)
 
 
 @app.route("/cat_subcat_list", methods=['GET', 'POST'])

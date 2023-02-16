@@ -65,7 +65,7 @@ class NeuronDb:
         """
         try:
             # Create Table
-            sql_create_tab = f"CREATE TABLE IF NOT EXISTS {table_name} ( course_id TEXT, course_name TEXT, course_description TEXT)"
+            sql_create_tab = f"CREATE TABLE IF NOT EXISTS {table_name} ( course_id VARCHAR(100) NOT NULL, course_name TEXT, course_description TEXT, PRIMARY KEY (course_id))"
             sql_cursor.execute(sql_create_tab)
             msg = f"Created Table...{table_name}"
             logging.info(msg)
@@ -94,7 +94,7 @@ class NeuronDb:
                 c_desc = course['course_description']
 
                 data = (c_id, c_name, c_desc)
-                sql_insert = (f"""INSERT INTO {table_name}(course_id, course_name, course_description) VALUES(%s, %s, %s)""")
+                sql_insert = (f"""INSERT IGNORE INTO {table_name}(course_id, course_name, course_description) VALUES(%s, %s, %s)""")
                 sql_cursor.execute(sql_insert, data)
 
             sql_conn.commit()
