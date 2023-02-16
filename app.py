@@ -10,7 +10,7 @@ application = Flask(__name__)
 app = application
 
 logging.basicConfig(filename='ineuron_log.log',
-                    level=logging.CRITICAL,
+                    level=logging.DEBUG,
                     format='%(asctime)s:%(levelname)s:%(name)s:%(message)s')
 
 cat_sub_cat_items = []
