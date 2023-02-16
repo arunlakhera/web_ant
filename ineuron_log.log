@@ -1079,3 +1079,279 @@ TypeError: The view function for 'load_data' did not return a valid response. Th
 2023-02-16 16:44:12,902:INFO:werkzeug:127.0.0.1 - - [16/Feb/2023 16:44:12] "[35m[1mGET /load_data HTTP/1.1[0m" 500 -
 2023-02-16 16:44:12,919:DEBUG:asyncio:Using proactor: IocpProactor
 2023-02-16 16:44:12,925:INFO:werkzeug:127.0.0.1 - - [16/Feb/2023 16:44:12] "GET /cat_subcat_list HTTP/1.1" 200 -
+2023-02-16 16:45:47,379:DEBUG:asyncio:Using proactor: IocpProactor
+2023-02-16 16:45:47,383:INFO:werkzeug:127.0.0.1 - - [16/Feb/2023 16:45:47] "POST /cat_subcat_list HTTP/1.1" 200 -
+2023-02-16 16:45:48,866:DEBUG:asyncio:Using proactor: IocpProactor
+2023-02-16 16:45:48,875:INFO:werkzeug:127.0.0.1 - - [16/Feb/2023 16:45:48] "POST /course_list HTTP/1.1" 200 -
+2023-02-16 16:45:49,868:INFO:root:File Name for PDF: 6389b7ff41896d32c199d378.pdf
+2023-02-16 16:45:49,869:DEBUG:botocore.hooks:Changing event name from creating-client-class.iot-data to creating-client-class.iot-data-plane
+2023-02-16 16:45:49,871:DEBUG:botocore.hooks:Changing event name from before-call.apigateway to before-call.api-gateway
+2023-02-16 16:45:49,871:DEBUG:botocore.hooks:Changing event name from request-created.machinelearning.Predict to request-created.machine-learning.Predict
+2023-02-16 16:45:49,873:DEBUG:botocore.hooks:Changing event name from before-parameter-build.autoscaling.CreateLaunchConfiguration to before-parameter-build.auto-scaling.CreateLaunchConfiguration
+2023-02-16 16:45:49,873:DEBUG:botocore.hooks:Changing event name from before-parameter-build.route53 to before-parameter-build.route-53
+2023-02-16 16:45:49,873:DEBUG:botocore.hooks:Changing event name from request-created.cloudsearchdomain.Search to request-created.cloudsearch-domain.Search
+2023-02-16 16:45:49,874:DEBUG:botocore.hooks:Changing event name from docs.*.autoscaling.CreateLaunchConfiguration.complete-section to docs.*.auto-scaling.CreateLaunchConfiguration.complete-section
+2023-02-16 16:45:49,876:DEBUG:botocore.hooks:Changing event name from before-parameter-build.logs.CreateExportTask to before-parameter-build.cloudwatch-logs.CreateExportTask
+2023-02-16 16:45:49,876:DEBUG:botocore.hooks:Changing event name from docs.*.logs.CreateExportTask.complete-section to docs.*.cloudwatch-logs.CreateExportTask.complete-section
+2023-02-16 16:45:49,876:DEBUG:botocore.hooks:Changing event name from before-parameter-build.cloudsearchdomain.Search to before-parameter-build.cloudsearch-domain.Search
+2023-02-16 16:45:49,876:DEBUG:botocore.hooks:Changing event name from docs.*.cloudsearchdomain.Search.complete-section to docs.*.cloudsearch-domain.Search.complete-section
+2023-02-16 16:45:49,878:DEBUG:botocore.utils:IMDS ENDPOINT: http://169.254.169.254/
+2023-02-16 16:45:49,879:DEBUG:botocore.credentials:Looking for credentials via: env
+2023-02-16 16:45:49,879:DEBUG:botocore.credentials:Looking for credentials via: assume-role
+2023-02-16 16:45:49,879:DEBUG:botocore.credentials:Looking for credentials via: assume-role-with-web-identity
+2023-02-16 16:45:49,879:DEBUG:botocore.credentials:Looking for credentials via: sso
+2023-02-16 16:45:49,879:DEBUG:botocore.credentials:Looking for credentials via: shared-credentials-file
+2023-02-16 16:45:49,879:INFO:botocore.credentials:Found credentials in shared credentials file: ~/.aws/credentials
+2023-02-16 16:45:49,880:DEBUG:botocore.loaders:Loading JSON file: C:\Users\arunl\AppData\Local\Programs\Python\Python311\Lib\site-packages\botocore\data\endpoints.json
+2023-02-16 16:45:49,887:DEBUG:botocore.loaders:Loading JSON file: C:\Users\arunl\AppData\Local\Programs\Python\Python311\Lib\site-packages\botocore\data\sdk-default-configuration.json
+2023-02-16 16:45:49,887:DEBUG:botocore.hooks:Event choose-service-name: calling handler <function handle_service_name_alias at 0x000001FC810FFA60>
+2023-02-16 16:45:49,920:DEBUG:botocore.loaders:Loading JSON file: C:\Users\arunl\AppData\Local\Programs\Python\Python311\Lib\site-packages\botocore\data\s3\2006-03-01\service-2.json
+2023-02-16 16:45:49,968:DEBUG:botocore.loaders:Loading JSON file: C:\Users\arunl\AppData\Local\Programs\Python\Python311\Lib\site-packages\botocore\data\s3\2006-03-01\endpoint-rule-set-1.json.gz
+2023-02-16 16:45:49,972:DEBUG:botocore.loaders:Loading JSON file: C:\Users\arunl\AppData\Local\Programs\Python\Python311\Lib\site-packages\botocore\data\partitions.json
+2023-02-16 16:45:49,974:DEBUG:botocore.hooks:Event creating-client-class.s3: calling handler <function add_generate_presigned_post at 0x000001FC8103F880>
+2023-02-16 16:45:49,974:DEBUG:botocore.hooks:Event creating-client-class.s3: calling handler <function lazy_call.<locals>._handler at 0x000001FC82518D60>
+2023-02-16 16:45:49,993:DEBUG:botocore.hooks:Event creating-client-class.s3: calling handler <function add_generate_presigned_url at 0x000001FC8103F600>
+2023-02-16 16:45:49,994:DEBUG:botocore.endpoint:Setting s3 timeout as (60, 60)
+2023-02-16 16:45:49,996:DEBUG:botocore.loaders:Loading JSON file: C:\Users\arunl\AppData\Local\Programs\Python\Python311\Lib\site-packages\botocore\data\_retry.json
+2023-02-16 16:45:49,996:DEBUG:botocore.client:Registering retry handlers for service: s3
+2023-02-16 16:45:49,997:DEBUG:botocore.utils:Registering S3 region redirector handler
+2023-02-16 16:45:49,997:DEBUG:s3transfer.utils:Acquiring 0
+2023-02-16 16:45:49,998:DEBUG:s3transfer.tasks:UploadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x000001FC81A53550>}) about to wait for the following futures []
+2023-02-16 16:45:49,998:DEBUG:s3transfer.tasks:UploadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x000001FC81A53550>}) done waiting for dependent futures
+2023-02-16 16:45:49,998:DEBUG:s3transfer.tasks:Executing task UploadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x000001FC81A53550>}) with kwargs {'client': <botocore.client.S3 object at 0x000001FC81A516D0>, 'config': <boto3.s3.transfer.TransferConfig object at 0x000001FC8229B9D0>, 'osutil': <s3transfer.utils.OSUtils object at 0x000001FC828EB550>, 'request_executor': <s3transfer.futures.BoundedExecutor object at 0x000001FC822A6850>, 'transfer_future': <s3transfer.futures.TransferFuture object at 0x000001FC81A53550>}
+2023-02-16 16:45:49,998:DEBUG:s3transfer.futures:Submitting task PutObjectTask(transfer_id=0, {'bucket': 'arunpdf', 'key': '6389b7ff41896d32c199d378.pdf', 'extra_args': {}}) to executor <s3transfer.futures.BoundedExecutor object at 0x000001FC822A6850> for transfer request: 0.
+2023-02-16 16:45:49,998:DEBUG:s3transfer.utils:Acquiring 0
+2023-02-16 16:45:49,998:DEBUG:s3transfer.tasks:PutObjectTask(transfer_id=0, {'bucket': 'arunpdf', 'key': '6389b7ff41896d32c199d378.pdf', 'extra_args': {}}) about to wait for the following futures []
+2023-02-16 16:45:49,998:DEBUG:s3transfer.utils:Releasing acquire 0/None
+2023-02-16 16:45:49,998:DEBUG:s3transfer.tasks:PutObjectTask(transfer_id=0, {'bucket': 'arunpdf', 'key': '6389b7ff41896d32c199d378.pdf', 'extra_args': {}}) done waiting for dependent futures
+2023-02-16 16:45:49,998:DEBUG:s3transfer.tasks:Executing task PutObjectTask(transfer_id=0, {'bucket': 'arunpdf', 'key': '6389b7ff41896d32c199d378.pdf', 'extra_args': {}}) with kwargs {'client': <botocore.client.S3 object at 0x000001FC81A516D0>, 'fileobj': <s3transfer.utils.ReadFileChunk object at 0x000001FC81E6DA50>, 'bucket': 'arunpdf', 'key': '6389b7ff41896d32c199d378.pdf', 'extra_args': {}}
+2023-02-16 16:45:49,999:DEBUG:botocore.hooks:Event before-endpoint-resolution.s3: calling handler <function customize_endpoint_resolver_builtins at 0x000001FC811137E0>
+2023-02-16 16:45:49,999:DEBUG:botocore.hooks:Event before-endpoint-resolution.s3: calling handler <bound method S3RegionRedirectorv2.redirect_from_cache of <botocore.utils.S3RegionRedirectorv2 object at 0x000001FC823049D0>>
+2023-02-16 16:45:49,999:DEBUG:botocore.regions:Calling endpoint provider with parameters: {'Bucket': 'arunpdf', 'Region': 'ap-northeast-1', 'UseFIPS': False, 'UseDualStack': False, 'ForcePathStyle': False, 'Accelerate': False, 'UseGlobalEndpoint': False, 'DisableMultiRegionAccessPoints': False, 'UseArnRegion': True}
+2023-02-16 16:45:49,999:DEBUG:botocore.regions:Endpoint provider result: https://arunpdf.s3.ap-northeast-1.amazonaws.com
+2023-02-16 16:45:50,000:DEBUG:botocore.regions:Selecting from endpoint provider's list of auth schemes: "sigv4". User selected auth scheme is: "None"
+2023-02-16 16:45:50,000:DEBUG:botocore.regions:Selected auth type "v4" as "v4" with signing context params: {'region': 'ap-northeast-1', 'signing_name': 's3', 'disableDoubleEncoding': True}
+2023-02-16 16:45:50,000:DEBUG:botocore.hooks:Event before-parameter-build.s3.PutObject: calling handler <function validate_ascii_metadata at 0x000001FC811122A0>
+2023-02-16 16:45:50,000:DEBUG:botocore.hooks:Event before-parameter-build.s3.PutObject: calling handler <function sse_md5 at 0x000001FC81111580>
+2023-02-16 16:45:50,000:DEBUG:botocore.hooks:Event before-parameter-build.s3.PutObject: calling handler <function convert_body_to_file_like_object at 0x000001FC81112CA0>
+2023-02-16 16:45:50,000:DEBUG:botocore.hooks:Event before-parameter-build.s3.PutObject: calling handler <function validate_bucket_name at 0x000001FC811114E0>
+2023-02-16 16:45:50,000:DEBUG:botocore.hooks:Event before-parameter-build.s3.PutObject: calling handler <function remove_bucket_from_url_paths_from_model at 0x000001FC81113600>
+2023-02-16 16:45:50,000:DEBUG:botocore.hooks:Event before-parameter-build.s3.PutObject: calling handler <bound method S3RegionRedirectorv2.annotate_request_context of <botocore.utils.S3RegionRedirectorv2 object at 0x000001FC823049D0>>
+2023-02-16 16:45:50,000:DEBUG:botocore.hooks:Event before-parameter-build.s3.PutObject: calling handler <function generate_idempotent_uuid at 0x000001FC81111300>
+2023-02-16 16:45:50,000:DEBUG:botocore.hooks:Event before-call.s3.PutObject: calling handler <function conditionally_calculate_md5 at 0x000001FC80F7C360>
+2023-02-16 16:45:50,005:DEBUG:botocore.hooks:Event before-call.s3.PutObject: calling handler <function add_expect_header at 0x000001FC811118A0>
+2023-02-16 16:45:50,005:DEBUG:botocore.handlers:Adding expect 100 continue header to request.
+2023-02-16 16:45:50,005:DEBUG:botocore.hooks:Event before-call.s3.PutObject: calling handler <function add_recursion_detection_header at 0x000001FC810FFBA0>
+2023-02-16 16:45:50,005:DEBUG:botocore.hooks:Event before-call.s3.PutObject: calling handler <function inject_api_version_header_if_needed at 0x000001FC81112DE0>
+2023-02-16 16:45:50,005:DEBUG:botocore.endpoint:Making request for OperationModel(name=PutObject) with params: {'url_path': '/6389b7ff41896d32c199d378.pdf', 'query_string': {}, 'method': 'PUT', 'headers': {'User-Agent': 'Boto3/1.26.71 Python/3.11.2 Windows/10 Botocore/1.29.71', 'Content-MD5': 'r8ZK9t/B8yLU2yAT4WB+/Q==', 'Expect': '100-continue'}, 'body': <s3transfer.utils.ReadFileChunk object at 0x000001FC81E6DA50>, 'auth_path': '/arunpdf/6389b7ff41896d32c199d378.pdf', 'url': 'https://arunpdf.s3.ap-northeast-1.amazonaws.com/6389b7ff41896d32c199d378.pdf', 'context': {'client_region': 'ap-northeast-1', 'client_config': <botocore.config.Config object at 0x000001FC8162F050>, 'has_streaming_input': True, 'auth_type': 'v4', 'signing': {'region': 'ap-northeast-1', 'signing_name': 's3', 'disableDoubleEncoding': True}, 's3_redirect': {'redirected': False, 'bucket': 'arunpdf', 'params': {'Bucket': 'arunpdf', 'Key': '6389b7ff41896d32c199d378.pdf', 'Body': <s3transfer.utils.ReadFileChunk object at 0x000001FC81E6DA50>}}}}
+2023-02-16 16:45:50,006:DEBUG:botocore.hooks:Event request-created.s3.PutObject: calling handler <function signal_not_transferring at 0x000001FC81DDA340>
+2023-02-16 16:45:50,006:DEBUG:botocore.hooks:Event request-created.s3.PutObject: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x000001FC81E47790>>
+2023-02-16 16:45:50,006:DEBUG:botocore.hooks:Event choose-signer.s3.PutObject: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x000001FC828DB290>>
+2023-02-16 16:45:50,006:DEBUG:botocore.hooks:Event choose-signer.s3.PutObject: calling handler <function set_operation_specific_signer at 0x000001FC811111C0>
+2023-02-16 16:45:50,006:DEBUG:botocore.hooks:Event before-sign.s3.PutObject: calling handler <function remove_arn_from_signing_path at 0x000001FC81113740>
+2023-02-16 16:45:50,006:DEBUG:botocore.auth:Calculating signature using v4 auth.
+2023-02-16 16:45:50,006:DEBUG:botocore.auth:CanonicalRequest:
+PUT
+/6389b7ff41896d32c199d378.pdf
+
+content-md5:r8ZK9t/B8yLU2yAT4WB+/Q==
+host:arunpdf.s3.ap-northeast-1.amazonaws.com
+x-amz-content-sha256:UNSIGNED-PAYLOAD
+x-amz-date:20230216T111550Z
+
+content-md5;host;x-amz-content-sha256;x-amz-date
+UNSIGNED-PAYLOAD
+2023-02-16 16:45:50,006:DEBUG:botocore.auth:StringToSign:
+AWS4-HMAC-SHA256
+20230216T111550Z
+20230216/ap-northeast-1/s3/aws4_request
+e9ef8568adda659615caf016a46fc75b2ac3b765e787ab063226728b80761dcc
+2023-02-16 16:45:50,007:DEBUG:botocore.auth:Signature:
+cfe058422a25d4530c0a069a1eca1002bd933f8cf292fa55198c4fe30665dfe1
+2023-02-16 16:45:50,007:DEBUG:botocore.hooks:Event request-created.s3.PutObject: calling handler <function signal_transferring at 0x000001FC81DDA660>
+2023-02-16 16:45:50,007:DEBUG:botocore.hooks:Event request-created.s3.PutObject: calling handler <function add_retry_headers at 0x000001FC81113560>
+2023-02-16 16:45:50,007:DEBUG:botocore.endpoint:Sending http request: <AWSPreparedRequest stream_output=False, method=PUT, url=https://arunpdf.s3.ap-northeast-1.amazonaws.com/6389b7ff41896d32c199d378.pdf, headers={'User-Agent': b'Boto3/1.26.71 Python/3.11.2 Windows/10 Botocore/1.29.71', 'Content-MD5': b'r8ZK9t/B8yLU2yAT4WB+/Q==', 'Expect': b'100-continue', 'X-Amz-Date': b'20230216T111550Z', 'X-Amz-Content-SHA256': b'UNSIGNED-PAYLOAD', 'Authorization': b'AWS4-HMAC-SHA256 Credential=AKIAZIH2ZW4NDK3AU2M6/20230216/ap-northeast-1/s3/aws4_request, SignedHeaders=content-md5;host;x-amz-content-sha256;x-amz-date, Signature=cfe058422a25d4530c0a069a1eca1002bd933f8cf292fa55198c4fe30665dfe1', 'amz-sdk-invocation-id': b'032c402b-8434-4a0a-8fb5-82e1ac53e336', 'amz-sdk-request': b'attempt=1', 'Content-Length': '2678'}>
+2023-02-16 16:45:50,007:DEBUG:botocore.httpsession:Certificate path: C:\Users\arunl\AppData\Local\Programs\Python\Python311\Lib\site-packages\botocore\cacert.pem
+2023-02-16 16:45:50,007:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): arunpdf.s3.ap-northeast-1.amazonaws.com:443
+2023-02-16 16:45:50,597:DEBUG:botocore.awsrequest:Waiting for 100 Continue response.
+2023-02-16 16:45:50,789:DEBUG:botocore.awsrequest:100 Continue response seen, now sending request body.
+2023-02-16 16:45:50,987:DEBUG:urllib3.connectionpool:https://arunpdf.s3.ap-northeast-1.amazonaws.com:443 "PUT /6389b7ff41896d32c199d378.pdf HTTP/1.1" 200 0
+2023-02-16 16:45:50,988:DEBUG:botocore.parsers:Response headers: {'x-amz-id-2': 'E2OgMlfiGxGbqIpbseVoI4ntOKVvN+FXhCgeB1UpadowWV9RFe/A62tMttLtP3sddp799FvFruk=', 'x-amz-request-id': 'MMYED5MR302GHP2F', 'Date': 'Thu, 16 Feb 2023 11:15:53 GMT', 'x-amz-server-side-encryption': 'AES256', 'ETag': '"afc64af6dfc1f322d4db2013e1607efd"', 'Server': 'AmazonS3', 'Content-Length': '0'}
+2023-02-16 16:45:50,988:DEBUG:botocore.parsers:Response body:
+b''
+2023-02-16 16:45:50,988:DEBUG:botocore.hooks:Event needs-retry.s3.PutObject: calling handler <botocore.retryhandler.RetryHandler object at 0x000001FC81E6CC50>
+2023-02-16 16:45:50,988:DEBUG:botocore.retryhandler:No retry needed.
+2023-02-16 16:45:50,988:DEBUG:botocore.hooks:Event needs-retry.s3.PutObject: calling handler <bound method S3RegionRedirectorv2.redirect_from_error of <botocore.utils.S3RegionRedirectorv2 object at 0x000001FC823049D0>>
+2023-02-16 16:45:50,988:DEBUG:s3transfer.utils:Releasing acquire 0/None
+2023-02-16 16:45:50,990:INFO:werkzeug:127.0.0.1 - - [16/Feb/2023 16:45:50] "POST /course_detail HTTP/1.1" 200 -
+2023-02-16 16:45:52,515:DEBUG:asyncio:Using proactor: IocpProactor
+2023-02-16 16:45:52,517:INFO:werkzeug:127.0.0.1 - - [16/Feb/2023 16:45:52] "POST /cat_subcat_list HTTP/1.1" 200 -
+2023-02-16 16:45:53,090:DEBUG:asyncio:Using proactor: IocpProactor
+2023-02-16 16:45:53,093:INFO:werkzeug:127.0.0.1 - - [16/Feb/2023 16:45:53] "GET /cat_subcat_list HTTP/1.1" 200 -
+2023-02-16 16:45:56,814:DEBUG:asyncio:Using proactor: IocpProactor
+2023-02-16 16:45:56,815:INFO:werkzeug:127.0.0.1 - - [16/Feb/2023 16:45:56] "GET /home_page HTTP/1.1" 200 -
+2023-02-16 16:58:34,702:DEBUG:NeuronScrapper:Getting Webpage...
+2023-02-16 16:58:35,327:DEBUG:NeuronScrapper:Done
+2023-02-16 16:58:35,327:DEBUG:NeuronScrapper:Reading Webpage...
+2023-02-16 16:58:37,097:DEBUG:NeuronScrapper:Done
+2023-02-16 16:58:37,097:DEBUG:NeuronScrapper:Converting Webpage to HTML...
+2023-02-16 16:58:37,112:DEBUG:NeuronScrapper:Done
+2023-02-16 16:58:37,112:DEBUG:NeuronScrapper:Extracting Raw Data...
+2023-02-16 16:58:37,112:DEBUG:NeuronScrapper:Done
+2023-02-16 16:58:37,112:DEBUG:NeuronScrapper:Converting to JSON...
+2023-02-16 16:58:37,128:DEBUG:NeuronScrapper:Done
+2023-02-16 16:58:37,128:DEBUG:NeuronScrapper:Getting Category and Subcategory Data...
+2023-02-16 16:58:37,128:DEBUG:NeuronScrapper:Done
+2023-02-16 16:58:37,128:DEBUG:NeuronScrapper:Saving cat_sub_cat_data.json
+2023-02-16 16:58:37,144:DEBUG:NeuronScrapper:Done
+2023-02-16 16:58:37,144:DEBUG:NeuronScrapper:Getting Courses Data...
+2023-02-16 16:58:37,144:DEBUG:NeuronScrapper:Done
+2023-02-16 16:58:37,144:DEBUG:NeuronScrapper:Saving courses_data.json
+2023-02-16 16:58:37,175:DEBUG:NeuronScrapper:Done
+2023-02-16 16:58:37,175:INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-02-16 16:58:37,175:INFO:werkzeug:[33mPress CTRL+C to quit[0m
+2023-02-16 16:58:49,812:DEBUG:asyncio:Using proactor: IocpProactor
+2023-02-16 16:58:49,818:INFO:werkzeug:127.0.0.1 - - [16/Feb/2023 16:58:49] "GET / HTTP/1.1" 200 -
+2023-02-16 16:58:52,727:DEBUG:asyncio:Using proactor: IocpProactor
+2023-02-16 16:58:52,729:INFO:werkzeug:127.0.0.1 - - [16/Feb/2023 16:58:52] "POST /home_page HTTP/1.1" 200 -
+2023-02-16 16:58:52,810:INFO:root:MongoDB Connection...Done
+2023-02-16 16:58:52,810:INFO:root:MongoDB Database...Done
+2023-02-16 16:58:52,810:INFO:root:MongoDB Collection cat_subcat ...Created
+2023-02-16 16:58:52,810:INFO:root:MongoDB Collection courses ...Created
+2023-02-16 16:58:54,160:INFO:root:MongoDB Data Insert ...Done
+2023-02-16 16:58:56,158:INFO:root:MongoDB Data Insert ...Done
+2023-02-16 16:58:56,867:INFO:root:Connected to MySQL Database...
+2023-02-16 16:58:57,179:INFO:root:Created Database...iNeuronDb
+2023-02-16 16:58:57,336:INFO:root:Using Database...iNeuronDb
+2023-02-16 16:58:57,492:INFO:root:Created Table...courses
+2023-02-16 16:58:57,492:INFO:root:Total data to Insert: 450
+2023-02-16 17:00:12,609:INFO:root:Total data Inserted in Table: 1
+2023-02-16 17:00:12,609:ERROR:app:Exception on /load_data [GET]
+Traceback (most recent call last):
+  File "C:\Users\arunl\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arunl\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    return self.finalize_request(rv)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arunl\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1842, in finalize_request
+    response = self.make_response(rv)
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arunl\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 2134, in make_response
+    raise TypeError(
+TypeError: The view function for 'load_data' did not return a valid response. The function either returned None or ended without a return statement.
+2023-02-16 17:00:12,609:INFO:werkzeug:127.0.0.1 - - [16/Feb/2023 17:00:12] "[35m[1mGET /load_data HTTP/1.1[0m" 500 -
+2023-02-16 17:00:12,635:DEBUG:asyncio:Using proactor: IocpProactor
+2023-02-16 17:00:12,641:INFO:werkzeug:127.0.0.1 - - [16/Feb/2023 17:00:12] "GET /cat_subcat_list HTTP/1.1" 200 -
+2023-02-16 17:08:28,681:DEBUG:asyncio:Using proactor: IocpProactor
+2023-02-16 17:08:28,685:INFO:werkzeug:127.0.0.1 - - [16/Feb/2023 17:08:28] "POST /cat_subcat_list HTTP/1.1" 200 -
+2023-02-16 17:08:30,285:DEBUG:asyncio:Using proactor: IocpProactor
+2023-02-16 17:08:30,294:INFO:werkzeug:127.0.0.1 - - [16/Feb/2023 17:08:30] "POST /course_list HTTP/1.1" 200 -
+2023-02-16 17:08:31,893:INFO:root:File Name for PDF: 61b303697196ae2ca813fe82.pdf
+2023-02-16 17:08:31,894:DEBUG:botocore.hooks:Changing event name from creating-client-class.iot-data to creating-client-class.iot-data-plane
+2023-02-16 17:08:31,895:DEBUG:botocore.hooks:Changing event name from before-call.apigateway to before-call.api-gateway
+2023-02-16 17:08:31,896:DEBUG:botocore.hooks:Changing event name from request-created.machinelearning.Predict to request-created.machine-learning.Predict
+2023-02-16 17:08:31,897:DEBUG:botocore.hooks:Changing event name from before-parameter-build.autoscaling.CreateLaunchConfiguration to before-parameter-build.auto-scaling.CreateLaunchConfiguration
+2023-02-16 17:08:31,897:DEBUG:botocore.hooks:Changing event name from before-parameter-build.route53 to before-parameter-build.route-53
+2023-02-16 17:08:31,897:DEBUG:botocore.hooks:Changing event name from request-created.cloudsearchdomain.Search to request-created.cloudsearch-domain.Search
+2023-02-16 17:08:31,898:DEBUG:botocore.hooks:Changing event name from docs.*.autoscaling.CreateLaunchConfiguration.complete-section to docs.*.auto-scaling.CreateLaunchConfiguration.complete-section
+2023-02-16 17:08:31,900:DEBUG:botocore.hooks:Changing event name from before-parameter-build.logs.CreateExportTask to before-parameter-build.cloudwatch-logs.CreateExportTask
+2023-02-16 17:08:31,900:DEBUG:botocore.hooks:Changing event name from docs.*.logs.CreateExportTask.complete-section to docs.*.cloudwatch-logs.CreateExportTask.complete-section
+2023-02-16 17:08:31,900:DEBUG:botocore.hooks:Changing event name from before-parameter-build.cloudsearchdomain.Search to before-parameter-build.cloudsearch-domain.Search
+2023-02-16 17:08:31,900:DEBUG:botocore.hooks:Changing event name from docs.*.cloudsearchdomain.Search.complete-section to docs.*.cloudsearch-domain.Search.complete-section
+2023-02-16 17:08:31,902:DEBUG:botocore.utils:IMDS ENDPOINT: http://169.254.169.254/
+2023-02-16 17:08:31,903:DEBUG:botocore.credentials:Looking for credentials via: env
+2023-02-16 17:08:31,903:DEBUG:botocore.credentials:Looking for credentials via: assume-role
+2023-02-16 17:08:31,903:DEBUG:botocore.credentials:Looking for credentials via: assume-role-with-web-identity
+2023-02-16 17:08:31,903:DEBUG:botocore.credentials:Looking for credentials via: sso
+2023-02-16 17:08:31,903:DEBUG:botocore.credentials:Looking for credentials via: shared-credentials-file
+2023-02-16 17:08:31,903:INFO:botocore.credentials:Found credentials in shared credentials file: ~/.aws/credentials
+2023-02-16 17:08:31,905:DEBUG:botocore.loaders:Loading JSON file: C:\Users\arunl\AppData\Local\Programs\Python\Python311\Lib\site-packages\botocore\data\endpoints.json
+2023-02-16 17:08:31,912:DEBUG:botocore.loaders:Loading JSON file: C:\Users\arunl\AppData\Local\Programs\Python\Python311\Lib\site-packages\botocore\data\sdk-default-configuration.json
+2023-02-16 17:08:31,912:DEBUG:botocore.hooks:Event choose-service-name: calling handler <function handle_service_name_alias at 0x00000245AF4BFA60>
+2023-02-16 17:08:31,949:DEBUG:botocore.loaders:Loading JSON file: C:\Users\arunl\AppData\Local\Programs\Python\Python311\Lib\site-packages\botocore\data\s3\2006-03-01\service-2.json
+2023-02-16 17:08:31,998:DEBUG:botocore.loaders:Loading JSON file: C:\Users\arunl\AppData\Local\Programs\Python\Python311\Lib\site-packages\botocore\data\s3\2006-03-01\endpoint-rule-set-1.json.gz
+2023-02-16 17:08:32,002:DEBUG:botocore.loaders:Loading JSON file: C:\Users\arunl\AppData\Local\Programs\Python\Python311\Lib\site-packages\botocore\data\partitions.json
+2023-02-16 17:08:32,004:DEBUG:botocore.hooks:Event creating-client-class.s3: calling handler <function add_generate_presigned_post at 0x00000245AF3FF880>
+2023-02-16 17:08:32,004:DEBUG:botocore.hooks:Event creating-client-class.s3: calling handler <function lazy_call.<locals>._handler at 0x00000245B08D9120>
+2023-02-16 17:08:32,025:DEBUG:botocore.hooks:Event creating-client-class.s3: calling handler <function add_generate_presigned_url at 0x00000245AF3FF600>
+2023-02-16 17:08:32,027:DEBUG:botocore.endpoint:Setting s3 timeout as (60, 60)
+2023-02-16 17:08:32,028:DEBUG:botocore.loaders:Loading JSON file: C:\Users\arunl\AppData\Local\Programs\Python\Python311\Lib\site-packages\botocore\data\_retry.json
+2023-02-16 17:08:32,029:DEBUG:botocore.client:Registering retry handlers for service: s3
+2023-02-16 17:08:32,029:DEBUG:botocore.utils:Registering S3 region redirector handler
+2023-02-16 17:08:32,030:DEBUG:s3transfer.utils:Acquiring 0
+2023-02-16 17:08:32,030:DEBUG:s3transfer.tasks:UploadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x00000245AF9DF190>}) about to wait for the following futures []
+2023-02-16 17:08:32,030:DEBUG:s3transfer.tasks:UploadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x00000245AF9DF190>}) done waiting for dependent futures
+2023-02-16 17:08:32,030:DEBUG:s3transfer.tasks:Executing task UploadSubmissionTask(transfer_id=0, {'transfer_future': <s3transfer.futures.TransferFuture object at 0x00000245AF9DF190>}) with kwargs {'client': <botocore.client.S3 object at 0x00000245AFDF7D50>, 'config': <boto3.s3.transfer.TransferConfig object at 0x00000245B0CA0510>, 'osutil': <s3transfer.utils.OSUtils object at 0x00000245B0674990>, 'request_executor': <s3transfer.futures.BoundedExecutor object at 0x00000245AFE11A90>, 'transfer_future': <s3transfer.futures.TransferFuture object at 0x00000245AF9DF190>}
+2023-02-16 17:08:32,030:DEBUG:s3transfer.futures:Submitting task PutObjectTask(transfer_id=0, {'bucket': 'arunpdf', 'key': '61b303697196ae2ca813fe82.pdf', 'extra_args': {}}) to executor <s3transfer.futures.BoundedExecutor object at 0x00000245AFE11A90> for transfer request: 0.
+2023-02-16 17:08:32,030:DEBUG:s3transfer.utils:Acquiring 0
+2023-02-16 17:08:32,031:DEBUG:s3transfer.tasks:PutObjectTask(transfer_id=0, {'bucket': 'arunpdf', 'key': '61b303697196ae2ca813fe82.pdf', 'extra_args': {}}) about to wait for the following futures []
+2023-02-16 17:08:32,031:DEBUG:s3transfer.utils:Releasing acquire 0/None
+2023-02-16 17:08:32,031:DEBUG:s3transfer.tasks:PutObjectTask(transfer_id=0, {'bucket': 'arunpdf', 'key': '61b303697196ae2ca813fe82.pdf', 'extra_args': {}}) done waiting for dependent futures
+2023-02-16 17:08:32,031:DEBUG:s3transfer.tasks:Executing task PutObjectTask(transfer_id=0, {'bucket': 'arunpdf', 'key': '61b303697196ae2ca813fe82.pdf', 'extra_args': {}}) with kwargs {'client': <botocore.client.S3 object at 0x00000245AFDF7D50>, 'fileobj': <s3transfer.utils.ReadFileChunk object at 0x00000245B0677C50>, 'bucket': 'arunpdf', 'key': '61b303697196ae2ca813fe82.pdf', 'extra_args': {}}
+2023-02-16 17:08:32,031:DEBUG:botocore.hooks:Event before-endpoint-resolution.s3: calling handler <function customize_endpoint_resolver_builtins at 0x00000245AF4D37E0>
+2023-02-16 17:08:32,031:DEBUG:botocore.hooks:Event before-endpoint-resolution.s3: calling handler <bound method S3RegionRedirectorv2.redirect_from_cache of <botocore.utils.S3RegionRedirectorv2 object at 0x00000245B0699DD0>>
+2023-02-16 17:08:32,031:DEBUG:botocore.regions:Calling endpoint provider with parameters: {'Bucket': 'arunpdf', 'Region': 'ap-northeast-1', 'UseFIPS': False, 'UseDualStack': False, 'ForcePathStyle': False, 'Accelerate': False, 'UseGlobalEndpoint': False, 'DisableMultiRegionAccessPoints': False, 'UseArnRegion': True}
+2023-02-16 17:08:32,032:DEBUG:botocore.regions:Endpoint provider result: https://arunpdf.s3.ap-northeast-1.amazonaws.com
+2023-02-16 17:08:32,032:DEBUG:botocore.regions:Selecting from endpoint provider's list of auth schemes: "sigv4". User selected auth scheme is: "None"
+2023-02-16 17:08:32,032:DEBUG:botocore.regions:Selected auth type "v4" as "v4" with signing context params: {'region': 'ap-northeast-1', 'signing_name': 's3', 'disableDoubleEncoding': True}
+2023-02-16 17:08:32,032:DEBUG:botocore.hooks:Event before-parameter-build.s3.PutObject: calling handler <function validate_ascii_metadata at 0x00000245AF4D22A0>
+2023-02-16 17:08:32,032:DEBUG:botocore.hooks:Event before-parameter-build.s3.PutObject: calling handler <function sse_md5 at 0x00000245AF4D1580>
+2023-02-16 17:08:32,032:DEBUG:botocore.hooks:Event before-parameter-build.s3.PutObject: calling handler <function convert_body_to_file_like_object at 0x00000245AF4D2CA0>
+2023-02-16 17:08:32,032:DEBUG:botocore.hooks:Event before-parameter-build.s3.PutObject: calling handler <function validate_bucket_name at 0x00000245AF4D14E0>
+2023-02-16 17:08:32,032:DEBUG:botocore.hooks:Event before-parameter-build.s3.PutObject: calling handler <function remove_bucket_from_url_paths_from_model at 0x00000245AF4D3600>
+2023-02-16 17:08:32,032:DEBUG:botocore.hooks:Event before-parameter-build.s3.PutObject: calling handler <bound method S3RegionRedirectorv2.annotate_request_context of <botocore.utils.S3RegionRedirectorv2 object at 0x00000245B0699DD0>>
+2023-02-16 17:08:32,032:DEBUG:botocore.hooks:Event before-parameter-build.s3.PutObject: calling handler <function generate_idempotent_uuid at 0x00000245AF4D1300>
+2023-02-16 17:08:32,033:DEBUG:botocore.hooks:Event before-call.s3.PutObject: calling handler <function conditionally_calculate_md5 at 0x00000245AF33C360>
+2023-02-16 17:08:32,038:DEBUG:botocore.hooks:Event before-call.s3.PutObject: calling handler <function add_expect_header at 0x00000245AF4D18A0>
+2023-02-16 17:08:32,039:DEBUG:botocore.handlers:Adding expect 100 continue header to request.
+2023-02-16 17:08:32,039:DEBUG:botocore.hooks:Event before-call.s3.PutObject: calling handler <function add_recursion_detection_header at 0x00000245AF4BFBA0>
+2023-02-16 17:08:32,039:DEBUG:botocore.hooks:Event before-call.s3.PutObject: calling handler <function inject_api_version_header_if_needed at 0x00000245AF4D2DE0>
+2023-02-16 17:08:32,039:DEBUG:botocore.endpoint:Making request for OperationModel(name=PutObject) with params: {'url_path': '/61b303697196ae2ca813fe82.pdf', 'query_string': {}, 'method': 'PUT', 'headers': {'User-Agent': 'Boto3/1.26.71 Python/3.11.2 Windows/10 Botocore/1.29.71', 'Content-MD5': '3IHW5mCRDbevEImtDScnqQ==', 'Expect': '100-continue'}, 'body': <s3transfer.utils.ReadFileChunk object at 0x00000245B0677C50>, 'auth_path': '/arunpdf/61b303697196ae2ca813fe82.pdf', 'url': 'https://arunpdf.s3.ap-northeast-1.amazonaws.com/61b303697196ae2ca813fe82.pdf', 'context': {'client_region': 'ap-northeast-1', 'client_config': <botocore.config.Config object at 0x00000245B067D150>, 'has_streaming_input': True, 'auth_type': 'v4', 'signing': {'region': 'ap-northeast-1', 'signing_name': 's3', 'disableDoubleEncoding': True}, 's3_redirect': {'redirected': False, 'bucket': 'arunpdf', 'params': {'Bucket': 'arunpdf', 'Key': '61b303697196ae2ca813fe82.pdf', 'Body': <s3transfer.utils.ReadFileChunk object at 0x00000245B0677C50>}}}}
+2023-02-16 17:08:32,039:DEBUG:botocore.hooks:Event request-created.s3.PutObject: calling handler <function signal_not_transferring at 0x00000245B0172480>
+2023-02-16 17:08:32,039:DEBUG:botocore.hooks:Event request-created.s3.PutObject: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x00000245B0CA0C90>>
+2023-02-16 17:08:32,039:DEBUG:botocore.hooks:Event choose-signer.s3.PutObject: calling handler <bound method ClientCreator._default_s3_presign_to_sigv2 of <botocore.client.ClientCreator object at 0x00000245B0CA1B10>>
+2023-02-16 17:08:32,039:DEBUG:botocore.hooks:Event choose-signer.s3.PutObject: calling handler <function set_operation_specific_signer at 0x00000245AF4D11C0>
+2023-02-16 17:08:32,039:DEBUG:botocore.hooks:Event before-sign.s3.PutObject: calling handler <function remove_arn_from_signing_path at 0x00000245AF4D3740>
+2023-02-16 17:08:32,040:DEBUG:botocore.auth:Calculating signature using v4 auth.
+2023-02-16 17:08:32,040:DEBUG:botocore.auth:CanonicalRequest:
+PUT
+/61b303697196ae2ca813fe82.pdf
+
+content-md5:3IHW5mCRDbevEImtDScnqQ==
+host:arunpdf.s3.ap-northeast-1.amazonaws.com
+x-amz-content-sha256:UNSIGNED-PAYLOAD
+x-amz-date:20230216T113832Z
+
+content-md5;host;x-amz-content-sha256;x-amz-date
+UNSIGNED-PAYLOAD
+2023-02-16 17:08:32,040:DEBUG:botocore.auth:StringToSign:
+AWS4-HMAC-SHA256
+20230216T113832Z
+20230216/ap-northeast-1/s3/aws4_request
+27635f69de443504f97bd75b0dd55abea6f2b457d5e13bd0d71424c0fcd0a1de
+2023-02-16 17:08:32,040:DEBUG:botocore.auth:Signature:
+e0d3ab19a90094d7bdafda0a96dbf9b96a02f5cced4978a474d59924220ac386
+2023-02-16 17:08:32,040:DEBUG:botocore.hooks:Event request-created.s3.PutObject: calling handler <function signal_transferring at 0x00000245B01727A0>
+2023-02-16 17:08:32,040:DEBUG:botocore.hooks:Event request-created.s3.PutObject: calling handler <function add_retry_headers at 0x00000245AF4D3560>
+2023-02-16 17:08:32,040:DEBUG:botocore.endpoint:Sending http request: <AWSPreparedRequest stream_output=False, method=PUT, url=https://arunpdf.s3.ap-northeast-1.amazonaws.com/61b303697196ae2ca813fe82.pdf, headers={'User-Agent': b'Boto3/1.26.71 Python/3.11.2 Windows/10 Botocore/1.29.71', 'Content-MD5': b'3IHW5mCRDbevEImtDScnqQ==', 'Expect': b'100-continue', 'X-Amz-Date': b'20230216T113832Z', 'X-Amz-Content-SHA256': b'UNSIGNED-PAYLOAD', 'Authorization': b'AWS4-HMAC-SHA256 Credential=AKIAZIH2ZW4NDK3AU2M6/20230216/ap-northeast-1/s3/aws4_request, SignedHeaders=content-md5;host;x-amz-content-sha256;x-amz-date, Signature=e0d3ab19a90094d7bdafda0a96dbf9b96a02f5cced4978a474d59924220ac386', 'amz-sdk-invocation-id': b'08efed56-c4f8-46d6-a3ee-86dc17ea2cd9', 'amz-sdk-request': b'attempt=1', 'Content-Length': '2268'}>
+2023-02-16 17:08:32,040:DEBUG:botocore.httpsession:Certificate path: C:\Users\arunl\AppData\Local\Programs\Python\Python311\Lib\site-packages\botocore\cacert.pem
+2023-02-16 17:08:32,040:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): arunpdf.s3.ap-northeast-1.amazonaws.com:443
+2023-02-16 17:08:32,618:DEBUG:botocore.awsrequest:Waiting for 100 Continue response.
+2023-02-16 17:08:32,809:DEBUG:botocore.awsrequest:100 Continue response seen, now sending request body.
+2023-02-16 17:08:32,988:DEBUG:urllib3.connectionpool:https://arunpdf.s3.ap-northeast-1.amazonaws.com:443 "PUT /61b303697196ae2ca813fe82.pdf HTTP/1.1" 200 0
+2023-02-16 17:08:32,988:DEBUG:botocore.parsers:Response headers: {'x-amz-id-2': 'RXDMQuDyMW9BY243c/BjrTFiS6HPfCtYmLlyxEp/QtqWIa/dlu/WhlRvG37RHSHWp9glW+musIga7Rozc7QbCw==', 'x-amz-request-id': 'CT0PYGTGDJ98VE6T', 'Date': 'Thu, 16 Feb 2023 11:38:35 GMT', 'x-amz-server-side-encryption': 'AES256', 'ETag': '"dc81d6e660910db7af1089ad0d2727a9"', 'Server': 'AmazonS3', 'Content-Length': '0'}
+2023-02-16 17:08:32,988:DEBUG:botocore.parsers:Response body:
+b''
+2023-02-16 17:08:32,989:DEBUG:botocore.hooks:Event needs-retry.s3.PutObject: calling handler <botocore.retryhandler.RetryHandler object at 0x00000245B0203110>
+2023-02-16 17:08:32,989:DEBUG:botocore.retryhandler:No retry needed.
+2023-02-16 17:08:32,989:DEBUG:botocore.hooks:Event needs-retry.s3.PutObject: calling handler <bound method S3RegionRedirectorv2.redirect_from_error of <botocore.utils.S3RegionRedirectorv2 object at 0x00000245B0699DD0>>
+2023-02-16 17:08:32,989:DEBUG:s3transfer.utils:Releasing acquire 0/None
+2023-02-16 17:08:32,991:INFO:werkzeug:127.0.0.1 - - [16/Feb/2023 17:08:32] "POST /course_detail HTTP/1.1" 200 -
+2023-02-16 17:08:34,556:DEBUG:asyncio:Using proactor: IocpProactor
+2023-02-16 17:08:34,558:INFO:werkzeug:127.0.0.1 - - [16/Feb/2023 17:08:34] "POST /cat_subcat_list HTTP/1.1" 200 -
+2023-02-16 17:08:35,285:DEBUG:asyncio:Using proactor: IocpProactor
+2023-02-16 17:08:35,288:INFO:werkzeug:127.0.0.1 - - [16/Feb/2023 17:08:35] "GET /cat_subcat_list HTTP/1.1" 200 -
+2023-02-16 17:08:36,984:DEBUG:asyncio:Using proactor: IocpProactor
+2023-02-16 17:08:36,984:INFO:werkzeug:127.0.0.1 - - [16/Feb/2023 17:08:36] "GET /home_page HTTP/1.1" 200 -

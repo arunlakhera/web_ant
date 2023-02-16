@@ -194,6 +194,7 @@ class NeuronDb:
         try:
             # Insert data into collection
             coll_name.insert_many(data)
+
             logging.info("MongoDB Data Insert ...Done")
 
         except Exception as e:
