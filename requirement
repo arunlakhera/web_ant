@@ -2,3 +2,4 @@ flask[async]
 fpdf
 boto3
 pymongo
+PyMySQL

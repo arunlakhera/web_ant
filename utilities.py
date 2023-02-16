@@ -2,6 +2,8 @@ import logging
 from fpdf import FPDF
 import boto3
 import pymongo
+import pymysql
+
 
 def save_to_s3(filename):
     """
@@ -18,6 +20,7 @@ def save_to_s3(filename):
         )
     except Exception as e:
         logging.error(e)
+
 
 def save_to_pdf(user_sel_course):
     """
@@ -92,3 +95,56 @@ def save_to_mongodb(cat_subcat_data, courses_data):
         logging.error(e)
 
 
+def save_to_mysql(courses_data):
+
+    try:
+        logging.info("Connecting to MySQL Database...")
+
+        sql_conn = pymysql.connect(host="ineurondb.cckavecit4n5.ap-northeast-1.rds.amazonaws.com", user="ineuron",
+                                password="pwdineuron")
+        sql_cursor = sql_conn.cursor()
+
+        logging.info("..Done")
+
+
+        logging.info("Creating Database...")
+
+        sql_createdb = '''CREATE DATABASE IF NOT EXISTS iNeuronDb'''
+        sql_cursor.execute(sql_createdb)
+        sql_cursor.connection.commit()
+
+        logging.info("...Done")
+
+        logging.info("Use Database...")
+
+        sql_usedb = '''USE iNeuronDb'''
+        sql_cursor.execute(sql_usedb)
+        logging.info("...Done")
+
+        logging.info("Create Table...")
+
+        sql_create_tab = '''CREATE TABLE IF NOT EXISTS courses ( course_id TEXT, course_name TEXT, course_description TEXT)'''
+        sql_cursor.execute(sql_create_tab)
+        logging.info("...Done")
+
+        logging.info("Insert Table...")
+
+        for course in courses_data:
+            c_id = course['course_id']
+            c_name = course['course_name']
+            c_desc = course['course_description']
+
+            data = (c_id, c_name, c_desc)
+            sql_insert = ("""INSERT INTO courses(course_id, course_name, course_description) VALUES(%s, %s, %s)""")
+
+            sql_cursor.execute(sql_insert, data)
+        sql_conn.commit()
+
+        logging.info("...Done")
+
+        logging.info("Closing Connection...")
+        sql_conn.close()
+        logging.info("...Done")
+
+    except Exception as e:
+        logging.error(e)

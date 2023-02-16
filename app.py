@@ -25,6 +25,7 @@ async def home_page():
     if request.method == 'POST':
         try:
             utilities.save_to_mongodb(cat_subcat_data, courses_data)
+            utilities.save_to_mysql(courses_data)
 
             return render_template('cat_subcat_list.html', cat_subcat_data=cat_subcat_data)
         except Exception as e:
