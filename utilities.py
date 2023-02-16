@@ -1,14 +1,13 @@
 import logging
 from fpdf import FPDF
 import boto3
-import pymongo
-import pymysql
+from helper.NeuronDb import NeuronDb
 
 
 def save_to_s3(filename):
     """
     :param filename: takes filename of file to store in s3
-    :return:
+    :return: Saves file to Amazon s3
     """
     # Create an S3 access object
     s3 = boto3.client("s3")
@@ -16,7 +15,7 @@ def save_to_s3(filename):
         s3.upload_file(
             Filename=filename,
             Bucket="arunpdf",
-            Key="course.pdf",
+            Key=filename,
         )
     except Exception as e:
         logging.error(e)
@@ -63,7 +62,7 @@ def save_to_pdf(user_sel_course):
         pdf.multi_cell(200, 10, txt=f"Instructor Description: {instructor_description}", align='L')
 
         # file_name = f"{user_sel_course[0]['course_id']}.pdf"
-        file_name = "course.pdf"
+        file_name = f"{course_id}.pdf"
 
         # Save pdf file
         pdf.output(file_name)
@@ -76,75 +75,50 @@ def save_to_pdf(user_sel_course):
 
 
 def save_to_mongodb(cat_subcat_data, courses_data):
+    """
+    :param cat_subcat_data:
+    :param courses_data:
+    Stores Data into MonoDB Database
+    """
+    password = "pwdineuron"
+    mongodb_link = f"mongodb+srv://ineuron:{password}@cluster0.eltt8.mongodb.net/?retryWrites=true&w=majority"
+    neuron_db = NeuronDb()
 
-    try:
-        logging.info("Connecting to Mongo Database...")
-        client = pymongo.MongoClient("mongodb+srv://ineuron:pwdineuron@cluster0.eltt8.mongodb.net/?retryWrites=true&w=majority")
-        database = client['ineuron']
-        logging.info("..Done")
+    mongodb_client = neuron_db.connect_mongo(mongodb_link)
+    mongodb_name = 'ineuron'
+    mongodb_db = neuron_db.create_mongo_db(mongodb_client, mongodb_name)
+    coll_name = 'cat_subcat'
+    mongodb_cat_subcat_coll = neuron_db.create_mongo_coll(mongodb_db, coll_name)
+    coll_name = 'courses'
+    mongodb_courses_coll = neuron_db.create_mongo_coll(mongodb_db, coll_name)
 
-        logging.info("Saving to Mongo Database...")
-        cat_subcat_coll = database['cat_subcat']
-        courses_coll = database['courses']
-
-        cat_subcat_coll.insert_many(cat_subcat_data)
-        courses_coll.insert_many(courses_data)
-
-        logging.info("...Done")
-    except Exception as e:
-        logging.error(e)
+    neuron_db.mongo_insert(mongodb_cat_subcat_coll, cat_subcat_data)
+    neuron_db.mongo_insert(mongodb_courses_coll, courses_data)
 
 
 def save_to_mysql(courses_data):
+            """
+            :param courses_data: Pass courses data
 
-    try:
-        logging.info("Connecting to MySQL Database...")
+            Stores passed data into MySQL Database
+            """
 
-        sql_conn = pymysql.connect(host="ineurondb.cckavecit4n5.ap-northeast-1.rds.amazonaws.com", user="ineuron",
-                                password="pwdineuron")
-        sql_cursor = sql_conn.cursor()
+            host = "ineurondb.cckavecit4n5.ap-northeast-1.rds.amazonaws.com"
+            username = "ineuron"
+            password = "pwdineuron"
 
-        logging.info("..Done")
+            neuron_db = NeuronDb()
 
+            # Connect to MySQL Server
+            sql_conn, sql_cursor = neuron_db.connect_mysql(host, username, password)
 
-        logging.info("Creating Database...")
+            # Create Database
+            db_name = 'iNeuronDb'
+            neuron_db.create_mysql_db(sql_cursor, db_name)
 
-        sql_createdb = '''CREATE DATABASE IF NOT EXISTS iNeuronDb'''
-        sql_cursor.execute(sql_createdb)
-        sql_cursor.connection.commit()
+            # Create Table
+            table_name = 'courses'
+            neuron_db.create_mysql_table(sql_cursor, table_name)
 
-        logging.info("...Done")
-
-        logging.info("Use Database...")
-
-        sql_usedb = '''USE iNeuronDb'''
-        sql_cursor.execute(sql_usedb)
-        logging.info("...Done")
-
-        logging.info("Create Table...")
-
-        sql_create_tab = '''CREATE TABLE IF NOT EXISTS courses ( course_id TEXT, course_name TEXT, course_description TEXT)'''
-        sql_cursor.execute(sql_create_tab)
-        logging.info("...Done")
-
-        logging.info("Insert Table...")
-
-        for course in courses_data:
-            c_id = course['course_id']
-            c_name = course['course_name']
-            c_desc = course['course_description']
-
-            data = (c_id, c_name, c_desc)
-            sql_insert = ("""INSERT INTO courses(course_id, course_name, course_description) VALUES(%s, %s, %s)""")
-
-            sql_cursor.execute(sql_insert, data)
-        sql_conn.commit()
-
-        logging.info("...Done")
-
-        logging.info("Closing Connection...")
-        sql_conn.close()
-        logging.info("...Done")
-
-    except Exception as e:
-        logging.error(e)
+            # Insert Data into table
+            neuron_db.insert_mysql_data(sql_conn, sql_cursor, table_name, courses_data)

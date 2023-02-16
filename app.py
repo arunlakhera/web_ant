@@ -15,8 +15,9 @@ logging.basicConfig(filename='ineuron_log.log',
 
 cat_sub_cat_items = []
 
-data_neuron = NeuronScrapper()
+data_neuron = NeuronScrapper("https://ineuron.ai")
 cat_subcat_data, courses_data = data_neuron.get_data()
+
 
 @app.route('/')
 @app.route('/home_page', methods=['GET', 'POST'])

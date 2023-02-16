@@ -11,7 +11,7 @@ class NeuronScrapper:
     This class provides data retrievel methods from website link of iNeuron
     """
 
-    def __init__(self):
+    def __init__(self, url):
         self._url = ineuron_url
         self._logger = logging.getLogger("NeuronScrapper")
 
