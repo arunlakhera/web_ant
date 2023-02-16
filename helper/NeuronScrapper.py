@@ -8,14 +8,22 @@ ineuron_url = "https://ineuron.ai"
 
 class NeuronScrapper:
     """
-    This class provides data retrievel methods from website link of iNeuron
+    This class provides data retrieval methods from website link of iNeuron
     """
 
     def __init__(self, url):
+        """
+        :param url: initialize url to scrap
+        """
         self._url = ineuron_url
         self._logger = logging.getLogger("NeuronScrapper")
 
     def get_webpage(self):
+        """
+        :return: uclient
+        Request is made to url and result is stored in uclient which is
+        then returned back.
+        """
         try:
 
             self._logger.debug("Getting Webpage...")
@@ -28,6 +36,12 @@ class NeuronScrapper:
             return uclient
 
     def read_webpage(self, uclient):
+        """
+
+        :param uclient:
+        :return: ineuron_page
+        Takes uclient as input, reads the page and returns result
+        """
         try:
             self._logger.debug("Reading Webpage...")
             ineuron_page = uclient.read()
@@ -38,6 +52,12 @@ class NeuronScrapper:
             return ineuron_page
 
     def convert_webpage_to_html(self, ineuron_page):
+        """
+        :param ineuron_page:
+        :return: html page
+        Takes input raw content of website read and using beautifulsoup
+        parses html
+        """
         try:
             self._logger.debug("Converting Webpage to HTML...")
 
@@ -50,6 +70,11 @@ class NeuronScrapper:
             return ineuron_html
 
     def extract_raw_data(self, ineuron_html):
+        """
+        :param ineuron_html:
+        :return: related portion of extracted data
+        Scrapes the required raw data from the html page
+        """
         try:
             self._logger.debug("Extracting Raw Data...")
             bigboxes = ineuron_html.select("script", {"id": "__NEXT_DATA__"})
@@ -61,6 +86,12 @@ class NeuronScrapper:
             return bigboxes
 
     def convert_to_json(self, box):
+        """
+
+        :param box:
+        :return: returns json object
+        Takes input required data and returns in json format
+        """
         try:
             self._logger.debug("Converting to JSON...")
             json_object = json.loads(box.getText())
@@ -71,6 +102,12 @@ class NeuronScrapper:
             return json_object
 
     def extract_cat_subcat(self, json_object):
+        """
+
+        :param json_object:
+        :return: list of category and subcategory data
+        Extract category and sub category data
+        """
         course_cat_sub_cat_list = []
         try:
             self._logger.debug("Getting Category and Subcategory Data...")
@@ -93,6 +130,12 @@ class NeuronScrapper:
             return course_cat_sub_cat_list
 
     def extract_courses(self, json_object):
+        """
+
+        :param json_object:
+        :return: course related data
+        Takes input json obecjt and returns course data
+        """
 
         try:
             self._logger.debug("Getting Courses Data...")
@@ -170,6 +213,10 @@ class NeuronScrapper:
 
     # Function to fetch website data
     def get_data(self):
+        """
+        :return: category and courses data
+        Collects data, parses and returns category,subcategory and courses data
+        """
 
         uclient = self.get_webpage()
         ineuron_page = self.read_webpage(uclient)
@@ -203,6 +250,15 @@ class NeuronScrapper:
         return cat_sub_cat_data, courses_data
 
     def get_cat_courses(self, courses_data, cat_subcat_data, cat_id):
+        """
+
+        :param courses_data:
+        :param cat_subcat_data:
+        :param cat_id:
+        :return: returns only courses for the category provided
+        Takes input courses_data, cat_subcat_data and cat_it and based on cat_id returns
+        only those courses that belong to it.
+        """
         cat_subcat_list = []
         for i in range(len(cat_subcat_data)):
             if cat_subcat_data[i]['cat_id'] == cat_id:
@@ -212,6 +268,14 @@ class NeuronScrapper:
         return cat_courses
 
     def get_subcat_courses(self, courses_data, subcat_id):
+        """
+
+        :param courses_data:
+        :param subcat_id:
+        :return: only those courses are returned that belong to particular sub category
+        Takes input courses data and sub_Cat_id and returns only those courses that matches
+        the sub category id provided
+        """
         subcat_courses = []
         for i in range(len(courses_data)):
             if courses_data[i]['course_cat_id'] in subcat_id:
@@ -219,6 +283,13 @@ class NeuronScrapper:
         return subcat_courses
 
     def get_course(self, courses_data, course_id):
+        """
+
+        :param courses_data:
+        :param course_id:
+        :return: course that belongs to the course_id provided
+        Takes courses data and course id as input and returns only that course that matches
+        """
         selected_course = []
 
         for i in range(len(courses_data)):
