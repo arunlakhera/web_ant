@@ -25,7 +25,7 @@ def save_to_pdf(user_sel_course):
     """
     Function to convert data to PDF
     :param user_sel_course:
-    :return: status of pdf in bool
+    This creates and saves PDF file.
     """
     try:
         for course in user_sel_course:
