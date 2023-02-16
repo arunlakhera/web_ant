@@ -29,9 +29,9 @@ def save_to_pdf(user_sel_course):
     """
     try:
         for course in user_sel_course:
-            course_id = course['course_id']
-            course_name = course['course_name']
-            course_description = course['course_description']
+            course_id = str(course['course_id'])
+            course_name = str(course['course_name'])
+            course_description = str(course['course_description'])
             course_mode = str(course['course_mode'])
             course_curriculum = str(course['course_curriculum'])
             course_requirements = str(course['course_requirements'])
@@ -44,7 +44,6 @@ def save_to_pdf(user_sel_course):
 
         # Add a page
         pdf.add_page()
-
         # setting style and font
         pdf.set_font("Arial", size=10)
 
@@ -54,7 +53,6 @@ def save_to_pdf(user_sel_course):
         pdf.cell(200, 10, txt=f"Course ID: {course_id}", ln=2, align='L')
         pdf.multi_cell(200, 10, txt=f"Description: {course_description}", align='L')
         pdf.multi_cell(200, 10, txt=f"Mode: {course_mode}", align='L')
-        pdf.multi_cell(200, 10, txt=f"Curriculum: {course_curriculum}", align='L')
         pdf.multi_cell(200, 10, txt=f"Requirements: {course_requirements}", align='L')
         pdf.multi_cell(200, 10, txt=f"Features: {course_features}", align='L')
         pdf.multi_cell(200, 10, txt=f"Instructor Name: {instructor_name}", align='L')
@@ -62,7 +60,7 @@ def save_to_pdf(user_sel_course):
         pdf.multi_cell(200, 10, txt=f"Instructor Description: {instructor_description}", align='L')
 
         # file_name = f"{user_sel_course[0]['course_id']}.pdf"
-        file_name = f"{course_id}.pdf"
+        file_name = "course.pdf"
         logging.info(f"File Name for PDF: {file_name}")
 
         # Save pdf file

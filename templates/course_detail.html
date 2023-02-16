@@ -42,8 +42,8 @@ thead{background-color: gray;}
             <th scope="col">Course Name</th>
             <th scope="col">Course Description</th>
             <th scope="col">Mode</th>
-            <th scope="col">Curriculum</th>
             <th scope="col">Course Requirements</th>
+            <th scope="col">Course Curriculum</th>
             <th scope="col">Course Features</th>
             <th scope="col">Instructor Name</th>
             <th scope="col">Instructors Social</th>
@@ -61,13 +61,14 @@ thead{background-color: gray;}
               <td>{{course['course_name']}}</td>
               <td>{{course['course_description']}}</td>
               <td>{{course['course_mode']}}</td>
+
               <td>
-                    {% for item in course['course_curriculum'] %}
+                    {% for item in course['course_requirements'] %}
                         {{item}} ,
                     {% endfor %}
               </td>
               <td>
-                    {% for item in course['course_requirements'] %}
+                    {% for item in course['course_curriculum'] %}
                         {{item}} ,
                     {% endfor %}
               </td>

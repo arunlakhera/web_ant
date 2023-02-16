@@ -111,11 +111,13 @@ class NeuronScrapper:
 
                 if 'classTimings' in course_data[k]:
                     course_timings = course_data[k]['classTimings']
+                elif 'batches' in course_data[k]:
+                    course_timings = course_data[k]['batches']
                 else:
                     course_timings = "NA"
 
-                course_curriculum = ''
                 course_requirements = ''
+                course_curriculum = ''
                 course_features = ''
 
                 for i in range(len(course_data[k]['courseMeta'])):
@@ -150,7 +152,6 @@ class NeuronScrapper:
                     'course_description': course_description,
                     'course_mode': course_mode,
                     'course_cat_id': course_cat_id,
-                    'course_timings': course_timings,
                     'course_curriculum': course_curriculum,
                     'course_requirements': course_requirements,
                     'course_features': course_features,
@@ -176,6 +177,7 @@ class NeuronScrapper:
         bigboxes = self.extract_raw_data(ineuron_html)
 
         json_object = self.convert_to_json(bigboxes[23])
+
         cat_sub_cat_data = self.extract_cat_subcat(json_object)
 
         try:
