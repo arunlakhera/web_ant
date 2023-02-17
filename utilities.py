@@ -60,7 +60,8 @@ def save_to_pdf(user_sel_course):
         pdf.multi_cell(200, 10, txt=f"Instructor Description: {instructor_description}", align='L')
 
         # file_name = f"{user_sel_course[0]['course_id']}.pdf"
-        file_name = f"{course_id}.pdf"
+        # file_name = f"{course_id}.pdf"
+        file_name = f"course.pdf"
         logging.info(f"File Name for PDF: {file_name}")
 
         # Save pdf file
