@@ -61,7 +61,7 @@ def save_to_pdf(user_sel_course):
 
         # file_name = f"{user_sel_course[0]['course_id']}.pdf"
         # file_name = f"{course_id}.pdf"
-        file_name = f"course.pdf"
+        file_name = "course.pdf"
         logging.info(f"File Name for PDF: {file_name}")
 
         # Save pdf file
